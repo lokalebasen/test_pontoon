@@ -1,3 +1,5 @@
+basepath = "lokalebasen/test_pontoon"
+
 [[localization]]
 name = "messages"
 format = "json"
