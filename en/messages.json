@@ -1,1 +1,38 @@
-{}
+{
+  "activemodel": {
+    "attributes": {
+      "multistep_form/lease/step3": {
+        "area_rented": "Rented area",
+        "expected_end": "Expected end",
+        "occupied_at": "Move-in date",
+        "total_amount": "First years base rent"
+      },
+      "provider_service_request": {
+        "addresses": "Address(es) for properties requiring an EPC (Energy Performance Certificate)",
+        "company_name": "Company",
+        "email": "E-mail",
+        "jeudan_privacy_policy_error_message": "You must give your acceptance in order to complete your request and for Jeudan to contact you.",
+        "jeudan_privacy_policy_full": "I agree that Jeudan A/S and Jeudan Projekt & Service A/S may contact me via e-mail, telephone and SMS with offers and information on leases and related services, including cleaning, crafts services, remodelling, planting services and parking.<br/><br/>\nYour consent can be revoked at any time by sending an email to <a href=\"mailto:salg@jeudan.dk\">salg@jeudan.dk</a>.",
+        "jeudan_privacy_policy_notice": "One or more of the selected locations are owned by Jeudan A/S. We kindly ask you to accept the Jeudan A/S User Policy below.",
+        "jeudan_privacy_policy_short": "I agree that Jeudan A/S and Jeudan Projekt & Service A/S may contact me via e-mail, telephone and SMS…",
+        "person_full_name": "Full name",
+        "person_name": "Name",
+        "phone_number": "Telephone",
+        "phone_number_order_form": "Phone number",
+        "propose_date_for_view": "Propose a viewing date",
+        "your_option": "optional",
+        "your_question": "Your question"
+      },
+      "service_request": {
+        "area": "Location",
+        "comment": "Comment",
+        "company_name": "Company",
+        "email": "E-mail",
+        "employee_count": "Number of employees",
+        "meter_title": "Number of m²",
+        "person_name": "Name",
+        "phone_number": "Telephone"
+      }
+    }
+  }
+}
