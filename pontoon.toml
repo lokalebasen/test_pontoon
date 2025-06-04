@@ -2,4 +2,4 @@
 name = "messages"
 format = "json"
 source_file = "en/messages.json"
-translation_files = "*/messages.json"
+translation_files = "{lang}/messages.json"
