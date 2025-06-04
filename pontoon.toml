@@ -1,7 +1,10 @@
-basepath = ""
-
 [[localization]]
 name = "messages"
 format = "json"
-source_file = "en/messages.json"
-translation_files = "{lang}/messages.json"
+
+[[paths]]
+    reference = "en/messages.json"
+    l10n = "{lang}/messages.json"
+    locales = [
+        "it"
+    ]
