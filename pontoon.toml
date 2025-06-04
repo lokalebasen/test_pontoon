@@ -1,4 +1,4 @@
-basepath = "lokalebasen/test_pontoon"
+basepath = ""
 
 [[localization]]
 name = "messages"
