@@ -4,7 +4,7 @@ format = "json"
 
 [[paths]]
     reference = "en/messages.json"
-    l10n = "{lang}/messages.json"
+    l10n = "{locale}/messages.json"
     locales = [
         "it"
     ]
