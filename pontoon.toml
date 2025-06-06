@@ -3,8 +3,8 @@ name = "messages"
 format = "json"
 
 [[paths]]
-    reference = "en/messages.json"
-    l10n = "{locale}/messages.json"
+    source = "en/messages.json"
+    translations = "{locale}/messages.json"
     locales = [
     "it",
     "fr"
