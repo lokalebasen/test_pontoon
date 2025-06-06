@@ -2,7 +2,3 @@
 source = "en/messages.json"
 translations = "{locale_code}/messages.json"
 format = "json"
-locales = [
-"it",
-"fr"
-]
