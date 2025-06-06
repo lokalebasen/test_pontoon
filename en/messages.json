@@ -35,5 +35,6 @@
       }
     }
   },
-  "test_key": "Test key"
+  "test_key": "Test key",
+  "test_key_two": "Test key two"
 }
