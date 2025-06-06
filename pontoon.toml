@@ -6,5 +6,6 @@ format = "json"
     reference = "en/messages.json"
     l10n = "{locale}/messages.json"
     locales = [
-    "it"
+    "it",
+    "fr"
     ]
