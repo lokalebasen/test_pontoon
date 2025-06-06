@@ -1,4 +1,11 @@
-[[paths]]
-source = "en/messages.json"
-translations = "{locale_code}/messages.json"
+[[localization]]
+name = "messages"
 format = "json"
+
+[[paths]]
+    reference = "en/messages.json"
+    l10n = "{locale}/messages.json"
+    locales = [
+    "it",
+    "fr"
+    ]
