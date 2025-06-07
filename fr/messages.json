@@ -1,1 +1,40 @@
-{}
+{
+  "activemodel": {
+    "attributes": {
+      "multistep_form/lease/step3": {
+        "area_rented": "Superficie louée",
+        "expected_end": "Date d'expiration estimée",
+        "occupied_at": "Date d'emménagement",
+        "total_amount": "Loyer de base de la première année"
+      },
+      "provider_service_request": {
+        "addresses": "Adresse(s) des immeubles exigeant un diagnostic de performance énergétique (DPE)",
+        "company_name": "Société",
+        "email": "E-mail",
+        "person_full_name": "Nom et prénom\n",
+        "person_name": "Nom et prénom",
+        "phone_number": "Téléphone",
+        "phone_number_order_form": "Numéro de téléphone",
+        "propose_date_for_view": "Proposer une date pour une visite de présentation\n",
+        "your_option": "facultatif\n",
+        "your_question": "Votre question\n"
+      },
+      "service_request": {
+        "area": "Localisation",
+        "comment": "Remarques",
+        "company_name": "Société",
+        "email": "E-mail",
+        "employee_count": "Nombre d’employés",
+        "meter_title": "Nombre de m²",
+        "person_name": "Nom et prénom",
+        "phone_number": "Téléphone"
+      }
+    }
+  },
+  "test_key_four": "Gracia six",
+  "test_key_seven": "Vi seven",
+  "test_key_eight": "Vi eight",
+  "test_key_nine": "Vi nine",
+  "test_key_ten": "Vi ten",
+  "test_key_eleven": "Vi eleven"
+}

@@ -1,1 +1,40 @@
-{}
+{
+  "activemodel": {
+    "attributes": {
+      "multistep_form/lease/step3": {
+        "area_rented": "Area affittata",
+        "expected_end": "Fine prevista",
+        "occupied_at": "Data di trasferimento",
+        "total_amount": "Primo anno di affitto"
+      },
+      "provider_service_request": {
+        "addresses": "Indirizzo (i) per immobili che richiedono un EPC (Certificato di prestazione energetica)",
+        "company_name": "Azienda",
+        "email": "E-mail",
+        "person_full_name": "Nome completo\n",
+        "person_name": "Nome",
+        "phone_number": "Telefono",
+        "phone_number_order_form": "Numero di telefono",
+        "propose_date_for_view": "Proponi una data per vederlo\n",
+        "your_option": "facoltativo\n",
+        "your_question": "La tua domanda\n"
+      },
+      "service_request": {
+        "area": "Luogo",
+        "comment": "Commento",
+        "company_name": "Azienda",
+        "email": "E-mail",
+        "employee_count": "Numero di dipendenti",
+        "meter_title": "Numero de m²",
+        "person_name": "Nome",
+        "phone_number": "Telefono"
+      }
+    }
+  },
+  "test_key_four": "Vi six",
+  "test_key_seven": "Gracia seven",
+  "test_key_eight": "Gracia eight",
+  "test_key_nine": "Gracia nine",
+  "test_key_ten": "Gracia ten",
+  "test_key_eleven": "Gracia eleven"
+}
