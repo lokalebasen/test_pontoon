@@ -3214,13 +3214,6 @@
   "time.formats.date": "%Y-%m-%d",
   "time.formats.date_textual": "%e %B %Y",
   "time.formats.default": " %Y-%m-%d %H:%M:%S",
-  "time.input.formats": [
-    "long",
-    "medium",
-    "short",
-    "default",
-    "time"
-  ],
   "tooltips.showroom.3d_model_available": "Modèle 3D disponible",
   "tooltips.showroom.adjust_price": "Ajuster le prix",
   "tooltips.showroom.adjust_size": "Ajuster la superficie",
