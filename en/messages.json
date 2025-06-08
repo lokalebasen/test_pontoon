@@ -13900,10 +13900,6 @@
     "message": "%Y-%m-%d %H:%M:%S",
     "description": "Message for time.formats.default"
   },
-  "time.input.formats": {
-    "message": "[:long, :medium, :short, :default, :time]",
-    "description": "Message for time.input.formats"
-  },
   "tooltips.showroom.3d_model_available": {
     "message": "3D model available",
     "description": "Message for tooltips.showroom.3d_model_available"
