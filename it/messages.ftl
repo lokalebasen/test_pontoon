@@ -3338,10 +3338,7 @@ lb_showroom-detailed-transport_distances-bicycle_parking = parcheggio biciclette
 
 lb_showroom-detailed-transport_distances-boat = Imbarcazione
 
-lb_showroom-detailed-transport_distances-bus
-
-
- = bus
+lb_showroom-detailed-transport_distances-bus = bus
 
 lb_showroom-detailed-transport_distances-bus = Bus
 
@@ -3377,9 +3374,7 @@ lb_showroom-detailed-transport_distances-light_rail = stazione ferroviaria
 
 lb_showroom-detailed-transport_distances-mall = centro commerciale
 
-lb_showroom-detailed-transport_distances-metro
-
- = metro
+lb_showroom-detailed-transport_distances-metro = metro
 
 lb_showroom-detailed-transport_distances-metro = Metropolitana
 

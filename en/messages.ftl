@@ -3590,10 +3590,7 @@ lb_showroom-detailed-transport_distances-bicycle_parking = bicycle parking
 
 lb_showroom-detailed-transport_distances-boat = Boat
 
-lb_showroom-detailed-transport_distances-bus
-
-
- = bus
+lb_showroom-detailed-transport_distances-bus = bus
 
 lb_showroom-detailed-transport_distances-bus = Bus
 
@@ -3631,9 +3628,7 @@ lb_showroom-detailed-transport_distances-local_train = S-train
 
 lb_showroom-detailed-transport_distances-mall = mall
 
-lb_showroom-detailed-transport_distances-metro
-
- = metro
+lb_showroom-detailed-transport_distances-metro = metro
 
 lb_showroom-detailed-transport_distances-metro = Metro
 
