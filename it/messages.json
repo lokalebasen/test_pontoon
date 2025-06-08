@@ -10193,9 +10193,6 @@
   "time.formats.default": {
     "message": "%Y-%m-%d %H:%M:%S"
   },
-  "time.input.formats": {
-    "message": "[:lungo, :medio, :corto, :predefinito, :tempo]"
-  },
   "tooltips.showroom.3d_model_available": {
     "message": "3D model available"
   },
