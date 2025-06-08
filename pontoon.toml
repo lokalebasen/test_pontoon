@@ -1,7 +1,6 @@
 [[paths]]
-reference = "en/messages.json"
-l10n = "{locale}/messages.json"
+reference = "en/messages.ftl"
+l10n = "{locale}/messages.ftl"
 locales = [
-"it",
-"fr"
+"it"
 ]
