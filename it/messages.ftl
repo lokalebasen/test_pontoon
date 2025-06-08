@@ -148,27 +148,27 @@ activerecord-attributes-deal-rewards/voucher = Un voucher Amazon del valore di $
 activerecord-attributes-deal-state = Stato
 
 activerecord-attributes-deal-states/confirmed = { $count ->
+   [zero] Confermato
    [one] Confermato
   *[other] Confermato
-   [zero] Confermato
 }
 
 activerecord-attributes-deal-states/created = { $count ->
+   [zero] Creato
    [one] Creato
   *[other] Creato
-   [zero] Creato
 }
 
 activerecord-attributes-deal-states/denied = { $count ->
+   [zero] Negato
    [one] Negato
   *[other] Negato
-   [zero] Negato
 }
 
 activerecord-attributes-deal-states/unresolved = { $count ->
+   [zero] Non risolto 
    [one] Non risolto
   *[other] Non risolto
-   [zero] Non risolto 
 }
 
 activerecord-attributes-deal-total_amount_any = Importo totale
@@ -224,7 +224,7 @@ activerecord-attributes-lease-processed = Elaborato
 
 activerecord-attributes-lease-provider_id = Fornitore
 
-activerecord-attributes-lease-provinces_checked = $count aree selezionate
+activerecord-attributes-lease-provinces_checked = %{count} aree selezionate
 
 activerecord-attributes-lease-states/processed = Elaborato
 
@@ -324,9 +324,9 @@ activerecord-attributes-location-size = Dimensione
 activerecord-attributes-location-state = Stato
 
 activerecord-attributes-location-states-rented_out = { $count ->
+   [zero] Affittato
    [one] Affittato
   *[other] Affittato
-   [zero] Affittato
 }
 
 activerecord-attributes-location-states-temporarily_unavailable = Temporaneamente non disponibile
@@ -334,50 +334,50 @@ activerecord-attributes-location-states-temporarily_unavailable = Temporaneament
 activerecord-attributes-location-states-temporarily_unavailable_short = Non disponibile
 
 activerecord-attributes-location-states/active = { $count ->
+   [zero] Attivo
    [one] Attivo
   *[other] Attivo
-   [zero] Attivo
 }
 
 activerecord-attributes-location-states/closed = { $count ->
+   [zero] Disattivato
    [one] Disattivato
   *[other] Disattivato
-   [zero] Disattivato
 }
 
 activerecord-attributes-location-states/new = { $count ->
+   [zero] Notizie
    [one] Notizie
   *[other] Notizie
-   [zero] Notizie
 }
 
 activerecord-attributes-location-states/not_visible = { $count ->
+   [zero] non visibile
+
    [one] non visibile
 
   *[other] non visibile
-
-   [zero] non visibile
 
 }
 
 activerecord-attributes-location-states/rejected = Respinto
 
 activerecord-attributes-location-states/rented_out = { $count ->
+   [zero] Affittato
    [one] Affittato
   *[other] Affittato
-   [zero] Affittato
 }
 
 activerecord-attributes-location-states/unfinished = { $count ->
+   [zero] Incompiuto
    [one] Incompiuto
   *[other] Incompiuto
-   [zero] Incompiuto
 }
 
 activerecord-attributes-location-states/unverified = { $count ->
+   [zero] Non verificati
    [one] Non verificati
   *[other] Non verificati
-   [zero] Non verificati
 }
 
 activerecord-attributes-location-street_name = Nome della strada
@@ -466,15 +466,15 @@ activerecord-attributes-matched_order-states/unprocessed = Non elaborato
 activerecord-attributes-notification-state = Stato
 
 activerecord-attributes-notification-states/pending = { $count ->
+   [zero] in attesa
    [one] in attesa
   *[other] in attesa
-   [zero] in attesa
 }
 
 activerecord-attributes-notification-states/processed = { $count ->
+   [zero] Elaborato
    [one] Elaborato
   *[other] Elaborato
-   [zero] Elaborato
 }
 
 activerecord-attributes-notification-subject = Oggetto del contratto di locazione
@@ -620,23 +620,23 @@ activerecord-errors-models-postal_code-attributes-postal_code-invalid = Non è v
 activerecord-errors-models-provider_deal-attributes-base-location_missing = Seleziona una locazione dall'elenco o digita un altro indirizzo
 
 activerecord-models-area = { $count ->
+   [zero] zone
    [one] zona
   *[other] zone
-   [zero] zone
 }
 
 activerecord-models-article = { $count ->
+   [zero] notizie
    [one] notizie
   *[other] notizie
-   [zero] notizie
 }
 
 activerecord-models-client = clienti
 
 activerecord-models-client_deal_feedback = { $count ->
+   [zero] domande poste dal cliente
    [one] richiesta del cliente
   *[other] richieste del cliente
-   [zero] domande poste dal cliente
 }
 
 activerecord-models-contact-one = contatto 
@@ -650,113 +650,113 @@ activerecord-models-contact-few = pochi
 activerecord-models-contact-many = molti
 
 activerecord-models-contact-short = { $count ->
+   [zero] contatti
    [one] contatto
   *[other] contatti
-   [zero] contatti
 }
 
 activerecord-models-contact-singular = persona di contatto
 
 activerecord-models-deal = { $count ->
+   [zero] accordi
    [one] accordo
   *[other] accordi
-   [zero] accordi
 }
 
 activerecord-models-enquiry = { $count ->
+   [zero] Domande
    [one] Indagine
   *[other] Domande
-   [zero] Domande
 }
 
 activerecord-models-floor_plan_asset = { $count ->
+   [zero] Pianta
    [one] Pianta
   *[other] Pianta
-   [zero] Pianta
 }
 
 activerecord-models-invoice_recipient = { $count ->
+   [zero] Destinatari della fattura
    [one] Destinatario della fattura
   *[other] Destinatari della fattura
-   [zero] Destinatari della fattura
 }
 
 activerecord-models-lease = { $count ->
+   [zero] locazioni
    [one] locazione
   *[other] locazioni
-   [zero] locazioni
 }
 
 activerecord-models-location = { $count ->
+   [zero] locazioni
    [one] locazione
   *[other] locazioni
-   [zero] locazioni
 }
 
 activerecord-models-mercury/article = { $count ->
+   [zero] articoli
    [one] articolo
   *[other] articoli 
-   [zero] articoli
 }
 
 activerecord-models-mercury/image = { $count ->
+   [zero] immagini
    [one] immagine
   *[other] immagini
-   [zero] immagini
 }
 
 activerecord-models-note = { $count ->
+   [zero] Annotazioni
    [one] Nota
   *[other] Annotazioni
-   [zero] Annotazioni
 }
 
 activerecord-models-order = { $count ->
+   [zero] ordini
    [one] ordine
   *[other] ordini
-   [zero] ordini
 }
 
 activerecord-models-photo_asset = { $count ->
+   [zero] foto
    [one] foto
   *[other] foto
-   [zero] foto
 }
 
 activerecord-models-prospectus_asset = { $count ->
+   [zero] prospetti
    [one] prospetto
   *[other] prospetti
-   [zero] prospetti
 }
 
 activerecord-models-provider = { $count ->
+   [zero] fornitori
    [one] fornitore
   *[other] fornitori
-   [zero] fornitori
 }
 
 activerecord-models-reminder = { $count ->
+   [zero] Promemoria
    [one] Promemoria
   *[other] Promemoria
-   [zero] Promemoria
 }
 
 activerecord-models-search = { $count ->
+   [zero] ricerche
    [one] ricerca
   *[other] ricerche
-   [zero] ricerche
 }
 
 activerecord-models-search_agent = { $count ->
+   [zero] agenti di ricerca
    [one] agente di ricerca
   *[other] agenti di ricerca
-   [zero] agenti di ricerca
 }
 
 activerecord-models-service_request = { $count ->
+   [zero] indagini
    [one] indagine
   *[other] indagini
-   [zero] indagini
 }
 
 admin-author_comments-create-contact_author_comment = Comment from provider
@@ -788,9 +788,9 @@ apps-catalog-seo-custom_page-title = Spazi commerciali | %{site_name}
 apps-entry_page-activerecord-attributes-featured_advert-price_lease = Canone annuo per m²
 
 apps-entry_page-activerecord-models-featured_advert = { $count ->
+   [zero] annunci inseriti
    [one] annuncio inserito
   *[other] annunci inseriti
-   [zero] annunci inseriti
 }
 
 apps-entry_page-benefits_headline = Perché le persone utilizzano il nostro servizio
@@ -1615,15 +1615,15 @@ apps-lb_showroom-showroom-list-empty_list-larger_area = Prova ad estendere la tu
 apps-lb_showroom-showroom-list-empty_list-searched_for = Hai cercato per
 
 apps-lb_showroom-showroom-list-empty_list-selected_areas = { $count ->
+   [zero] Zone: 
    [one] Zona: 
   *[other] Zone: 
-   [zero] Zone: 
 }
 
 apps-lb_showroom-showroom-list-empty_list-selected_kinds = { $count ->
+   [zero] Tipi di immobili: 
    [one] Tipo di immobili: 
   *[other] Tipi di immobili: 
-   [zero] Tipi di immobili: 
 }
 
 apps-lb_showroom-showroom-list-empty_list-try_following = Prova quanto segue:
@@ -2488,9 +2488,9 @@ generic-model-actions-edit_subject = Modifica %{subject}
 generic-model-actions-index_subject = Mostra tutto %{subject}
 
 generic-model-actions-manage_subject = { $count ->
+   [zero] Gestisci %{subject}
    [one] Gestisci %{subject}
   *[other] Gestisci %{subject}
-   [zero] Gestisci %{subject}
 }
 
 generic-model-actions-show_subject = Mostra %{subject}
@@ -2789,37 +2789,21 @@ global-models-location-for_lease = %{kind} in affitto -
 global-models-location-for_rent = %{kind} in affitto -
 
 global-models-location-kinds-business_center-normal = { $count ->
+   [zero] business center
    [one] business center
   *[other] business center
-   [zero] "ZERO
-business center
-
-ONE
-business center
-
-OTHER
-business center"
-
 }
 
 global-models-location-kinds-business_center-seo_statistics = { $count ->
+   [zero] business center
    [one] business center
   *[other] business center
-   [zero] "ZERO
-business center
-
-ONE
-business center
-
-OTHER
-business center"
-
 }
 
 global-models-location-kinds-business_center-short = { $count ->
+   [zero] business center
    [one] business center
   *[other] business center
-   [zero] business center
 }
 
 global-models-location-kinds-cafe-normal = bar
@@ -2827,21 +2811,21 @@ global-models-location-kinds-cafe-normal = bar
 global-models-location-kinds-cafe-short = bar
 
 global-models-location-kinds-clinic-normal = { $count ->
+   [zero] cliniche
    [one] clinica
   *[other] cliniche
-   [zero] cliniche
 }
 
 global-models-location-kinds-clinic-short = { $count ->
+   [zero] cliniche
    [one] clinica
   *[other] cliniche
-   [zero] cliniche
 }
 
 global-models-location-kinds-coworking-normal = { $count ->
+   [zero] coworking
    [one] coworking
   *[other] coworking
-   [zero] coworking
 }
 
 global-models-location-kinds-coworking-seo_statistics = coworking
@@ -2849,84 +2833,79 @@ global-models-location-kinds-coworking-seo_statistics = coworking
 global-models-location-kinds-coworking-short = сoworking
 
 global-models-location-kinds-education-normal = { $count ->
+   [zero] istruzione
    [one] istruzione
   *[other] istruzione
-   [zero] istruzione
 }
 
 global-models-location-kinds-education-short = { $count ->
+   [zero] istruzione
    [one] istruzione
   *[other] istruzione
-   [zero] istruzione
 }
 
 global-models-location-kinds-event_space-normal = { $count ->
+   [zero] spazio per eventi
+
    [one] spazio per eventi
 
   *[other] spazi per eventi
-   [zero] spazio per eventi
-
 }
 
 global-models-location-kinds-event_space-short = { $count ->
+   [zero] spazio per eventi
+
    [one] spazio per eventi
   *[other] spazi per eventi
-
-   [zero] spazio per eventi
 
 }
 
 global-models-location-kinds-hair_salon-normal = { $count ->
+   [zero] saloni parrucchiere
    [one] salone parrucchiere
   *[other] saloni parrucchiere
-   [zero] saloni parrucchiere
 }
 
 global-models-location-kinds-hair_salon-short = { $count ->
+   [zero] saloni parrucchiere
    [one] salone parrucchiere
   *[other] saloni parrucchiere
-   [zero] saloni parrucchiere
 }
 
 global-models-location-kinds-high_ceiling_storage-normal = { $count ->
+   [zero] stoccaggio con soffitto alto
    [one] stoccaggio con soffitto alto
   *[other] stoccaggio con soffitto alto
-   [zero] stoccaggio con soffitto alto
 }
 
 global-models-location-kinds-high_ceiling_storage-short = { $count ->
+   [zero] stoccaggio con soffitto alto
    [one] stoccaggio con soffitto alto
   *[other] stoccaggio con soffitto alto
-   [zero] stoccaggio con soffitto alto
 }
 
 global-models-location-kinds-location-normal = { $count ->
+   [zero] spazi commerciali
    [one] spazio commerciale
   *[other] spazi commerciali
-   [zero] spazi commerciali
 }
 
 global-models-location-kinds-location-seo_statistics = { $count ->
+   [zero] spazi commerciali
    [one] spazio commerciale
   *[other] spazi commerciali
-   [zero] spazi commerciali
 }
 
 global-models-location-kinds-location-short = { $count ->
+   [zero] spazi
    [one] spazio
   *[other] spazi
-   [zero] ZERO
-ONE
-spazio
-
-OTHER
-spazi
 }
 
 global-models-location-kinds-meeting_room-normal = { $count ->
+   [zero] sala riunioni
    [one] sala riunioni
   *[other] sala riunioni
-   [zero] sala riunioni
 }
 
 global-models-location-kinds-meeting_room-seo_statistics = sala riunioni
@@ -2934,188 +2913,173 @@ global-models-location-kinds-meeting_room-seo_statistics = sala riunioni
 global-models-location-kinds-meeting_room-short = sala riunioni
 
 global-models-location-kinds-normal = { $count ->
+   [zero] spazi commerciali
    [one] spazio commerciale
   *[other] spazi commerciali
-   [zero] spazi commerciali
 }
 
 global-models-location-kinds-office-normal = { $count ->
+   [zero] offices
    [one] ufficio
   *[other] uffici
-   [zero] ZERO
-ONE
-office
-
-OTHER
-offices
 }
 
 global-models-location-kinds-office-seo_statistics = { $count ->
+   [zero] offices
    [one] ufficio
   *[other] uffici
-   [zero] ZERO
-ONE
-office
-
-OTHER
-offices
 }
 
 global-models-location-kinds-office-short = { $count ->
+   [zero] uffici
    [one] ufficio
   *[other] uffici
-   [zero] ZERO
-ONE
-ufficio
-
-OTHER
-uffici
 }
 
 global-models-location-kinds-parking-normal = { $count ->
+   [zero] parcheggi
    [one] parcheggio
   *[other] parcheggi
-   [zero] parcheggi
 }
 
 global-models-location-kinds-parking-seo_statistics = { $count ->
+   [zero] parcheggi
    [one] parcheggio
   *[other] parcheggi
-   [zero] parcheggi
 }
 
 global-models-location-kinds-parking-short = { $count ->
+   [zero] parcheggi
    [one] parcheggio
   *[other] parcheggi
-   [zero] parcheggi
 }
 
 global-models-location-kinds-popup_store-normal = { $count ->
+   [zero] negozi pop-up
    [one] negozio pop-up
   *[other] negozi pop-up
-   [zero] negozi pop-up
 }
 
 global-models-location-kinds-popup_store-short = { $count ->
+   [zero] negozi pop-up
    [one] negozio pop-up
   *[other] negozi pop-up
-   [zero] negozi pop-up
 }
 
 global-models-location-kinds-production-normal = { $count ->
+   [zero] produzioni
    [one] produzione
   *[other] produzioni
-   [zero] produzioni
 }
 
 global-models-location-kinds-production-short = { $count ->
+   [zero] produzioni
    [one] produzione
   *[other] produzioni
-   [zero] produzioni
 }
 
 global-models-location-kinds-seo_statistics = { $count ->
+   [zero] spazi commerciali
    [one] spazio commerciale
   *[other] spazi commerciali
-   [zero] spazi commerciali
 }
 
 global-models-location-kinds-showroom-normal = { $count ->
+   [zero] showroom
    [one] showroom
   *[other] showroom
-   [zero] showroom
 }
 
 global-models-location-kinds-showroom-short = showroom
 
 global-models-location-kinds-storage_hotel-normal = { $count ->
+   [zero] stoccaggio hotel
    [one] stoccaggio hotel
   *[other] stoccaggio hotel
-   [zero] stoccaggio hotel
 }
 
 global-models-location-kinds-storage_hotel-short = { $count ->
+   [zero] stoccaggio hotel
    [one] stoccaggio hotel
   *[other] stoccaggio hotel
-   [zero] stoccaggio hotel
 }
 
 global-models-location-kinds-store-normal = { $count ->
-   [one] negozio
-  *[other] negozi
    [zero] negozio
 
 negozi
+   [one] negozio
+  *[other] negozi
 }
 
 global-models-location-kinds-store-seo_statistics = { $count ->
-   [one] negozio
-  *[other] negozi
    [zero] negozio
 
 negozi
+   [one] negozio
+  *[other] negozi
 }
 
 global-models-location-kinds-store-short = { $count ->
-   [one] negozio
-  *[other] negozi
    [zero] negozio
 
 negozi
+   [one] negozio
+  *[other] negozi
 }
 
 global-models-location-kinds-virtual_office-normal = { $count ->
+   [zero] uffici virtuali
    [one] ufficio virtuale
   *[other] ufficio virtuale
-   [zero] uffici virtuali
 }
 
 global-models-location-kinds-virtual_office-seo_statistics = { $count ->
+   [zero] uffici virtuali
    [one] ufficio virtuale
   *[other] ufficio virtuale
-   [zero] uffici virtuali
 }
 
 global-models-location-kinds-virtual_office-short = { $count ->
+   [zero] uffici virtuali
    [one] ufficio virtuale
   *[other] uffici virtuali
-   [zero] uffici virtuali
 }
 
 global-models-location-kinds-warehouse-normal = { $count ->
-   [one] produzione/magazzino
-  *[other] produzione/magazzini
    [zero] produzione/magazzino
 
 produzione/magazzini
+   [one] produzione/magazzino
+  *[other] produzione/magazzini
 }
 
 global-models-location-kinds-warehouse-seo_statistics = { $count ->
-   [one] produzione/magazzino
-  *[other] produzione/magazzini
    [zero] produzione/magazzino
 
 produzione/magazzini
+   [one] produzione/magazzino
+  *[other] produzione/magazzini
 }
 
 global-models-location-kinds-warehouse-short = { $count ->
-   [one] magazzino
-  *[other] magazzini
    [zero] magazzino
 
 magazzini
+   [one] magazzino
+  *[other] magazzini
 }
 
 global-models-location-kinds-workshop-normal = { $count ->
+   [zero] workshop
    [one] workshop
   *[other] workshop
-   [zero] workshop
 }
 
 global-models-location-kinds-workshop-short = { $count ->
+   [zero] workshop
    [one] workshop
   *[other] workshop
-   [zero] workshop
 }
 
 global-terms-custom-lease = locazione
@@ -3129,27 +3093,27 @@ gold = oro
 google_reviews-button_text = Lascia una recensione
 
 helpers-i18n-localize_kind-location = { $count ->
+   [zero] spazi commerciali
    [one] spazio commerciale
   *[other] spazi commerciali
-   [zero] spazi commerciali
 }
 
 helpers-i18n-localize_kind-office = { $count ->
+   [zero] uffici
    [one] ufficio
   *[other] uffici
-   [zero] uffici
 }
 
 helpers-i18n-localize_kind-store = { $count ->
+   [zero] spazi commerciali
    [one] spazio commerciale
   *[other] spazi commerciali
-   [zero] spazi commerciali
 }
 
 helpers-i18n-localize_kind-warehouse = { $count ->
+   [zero] industriale/magazzini
    [one] industriale/magazzino
   *[other] industriale/magazzini
-   [zero] industriale/magazzini
 }
 
 helpers-select-prompt = Seleziona
@@ -3269,9 +3233,9 @@ layouts-sidebars-rental_focus-heading = Metti in elenco il tuo ufficio
 layouts-sidebars-rental_focus-see_all_advantages_and_prices = Tutti i vantaggi e i prezzi
 
 lb_showroom-detailed-asset_box-floor-plans_button = { $count ->
-   [one] $count piano terreno
-  *[other] $count planimetrie
    [zero] Nessuna planimetria
+   [one] %{count} piano terreno
+  *[other] %{count} planimetrie
 }
 
 lb_showroom-detailed-asset_box-floor_plan_button = planimetrie
@@ -3295,15 +3259,15 @@ lb_showroom-detailed-asset_box-new_videos_button = Video
 lb_showroom-detailed-asset_box-new_virtual_tour_button = Tour virtuale
 
 lb_showroom-detailed-asset_box-photos_button = { $count ->
-   [one] $count foto
-  *[other] $count foto
    [zero] Nessuna foto
+   [one] %{count} foto
+  *[other] %{count} foto
 }
 
 lb_showroom-detailed-asset_box-videos_button = { $count ->
-   [one] Video
-  *[other] $count video
    [zero] Nessun video
+   [one] Video
+  *[other] %{count} video
 }
 
 lb_showroom-detailed-asset_box-video_button = video
@@ -4212,7 +4176,7 @@ parking-parking_lot-reactivate = Riattiva
 
 parking-parking_lots-index-list-header = %{lot_count} aree di parcheggio da %{name}
 
-parking-parking_lots-list-number_of_parking_lots = $count aree di parcheggio
+parking-parking_lots-list-number_of_parking_lots = %{count} aree di parcheggio
 
 parking-parking_lots-parking_interval_row-amount_of_spaces = Numero di posti auto
 
@@ -4246,21 +4210,21 @@ promo-promotional_providers-shared-call_back-parking = Compila la casella sottos
 promo-promotional_providers-shared-call_back-rental = Compila la casella sottostante e sarai contattato da un dipendente della%{company_name}, per un colloquio senza impegno in merito a locazione o vendita di immobili commerciali.
 
 promo-promotional_providers-shared-shortcuts-offices = { $count ->
-   [one] ufficio $count
-  *[other] uffici $count
    [zero] uffici
+   [one] ufficio %{count}
+  *[other] uffici %{count}
 }
 
 promo-promotional_providers-shared-shortcuts-stores = { $count ->
-   [one] negozio $count
-  *[other] negozi $count
    [zero] negozi
+   [one] negozio %{count}
+  *[other] negozi %{count}
 }
 
 promo-promotional_providers-shared-shortcuts-warehouses = { $count ->
-   [one] $count spazio industriale e magazzino 
-  *[other] $count spazio industriale e magazzino  
    [zero] spazio industriale e magazzino
+   [one] %{count} spazio industriale e magazzino 
+  *[other] %{count} spazio industriale e magazzino  
 }
 
 promo-provider_call_backs-create-back = << Indietro
@@ -5130,9 +5094,9 @@ providers-locations-index-not_approved_unfinished = Il tuo account non è stato 
 
 
 providers-locations-lease_property = { $count ->
+   [zero] immobile
    [one] immobile
   *[other] immobili
-   [zero] immobile
 }
 
 providers-locations-list-create_new_location = Crea una nuova locazione
@@ -5671,15 +5635,15 @@ provider_messages-thank_you-summary = Hai fatto una domanda riguardo a:
 
 
 provider_specifics-index-location = { $count ->
-   [one] $count locazione commerciale
-  *[other] $count locazioni commerciali
-   [zero] $count spazi commerciali
+   [zero] %{count} spazi commerciali
+   [one] %{count} locazione commerciale
+  *[other] %{count} locazioni commerciali
 }
 
 provider_specifics-index-office = { $count ->
-   [one] 1 ufficio
-  *[other] $count uffici
    [zero] nessun ufficio
+   [one] 1 ufficio
+  *[other] %{count} uffici
 }
 
 provider_specifics-index-presents = presenta
@@ -5687,15 +5651,15 @@ provider_specifics-index-presents = presenta
 provider_specifics-index-rental_link_back = << Torna alla pagina dell'agente immobiliare commerciale di %{company_name} 
 
 provider_specifics-index-store = { $count ->
-   [one] 1 negozio
-  *[other] $count negozi
    [zero] negozi
+   [one] 1 negozio
+  *[other] %{count} negozi
 }
 
 provider_specifics-index-warehouse = { $count ->
-   [one] 1 unità industriale e logistica
-  *[other] $count unità industriali e logistiche
    [zero] unità industriali e logistiche 
+   [one] 1 unità industriale e logistica
+  *[other] %{count} unità industriali e logistiche
 }
 
 reports-providers_order_report-address = Nome della strada 
@@ -6205,9 +6169,9 @@ search_agents-order_already_sent-info = Le informazioni sono già state inviate 
 search_agents-search_agent_link-find_more_locations = Trova altre locazioni
 
 search_agents-search_agent_link-search_agent_link_text = { $count ->
-   [one] C'è 1 locazione che soddisfa i tuoi criteri
-  *[other] Ci sono $count locazioni che soddisfano i tuoi criteri
    [zero] Non vi sono locazioni che soddisfano i tuoi criteri
+   [one] C'è 1 locazione che soddisfa i tuoi criteri
+  *[other] Ci sono %{count} locazioni che soddisfano i tuoi criteri
 }
 
 search_agents-show-are_you_sure = Sei sicuro di non avere un agente di ricerca presso %{site_name}?
@@ -7267,7 +7231,7 @@ views-areas-index-deactivated_link = disattivato
 
 views-areas-index-latest_search-heading = La tua ultima ricerca
 
-views-areas-index-selected_provinces = $count selezionati
+views-areas-index-selected_provinces = %{count} selezionati
 
 views-articles-feed-author = Lokalebasen.dk
 
@@ -7315,21 +7279,21 @@ Trasmetteremo le informazioni che ci hai fornito esclusivamente ai proprietari d
 views-locations-permission_policy-what_is_this_information_used_for = Quali sono le informazioni utilizzate?
 
 views-locations-rented_out-link_to_recent_deals = { $count ->
-   [one] Locazioni del giorno precedente
-  *[other] Locazioni negli ultimi $count giorni
    [zero] Locazioni del giorno precedente
+   [one] Locazioni del giorno precedente
+  *[other] Locazioni negli ultimi %{count} giorni
 }
 
 views-locations-rented_out-recent_deals = { $count ->
-   [one] Ultima locazione
-  *[other] Ultime $count locazioni
    [zero] Ultime locazioni
+   [one] Ultima locazione
+  *[other] Ultime %{count} locazioni
 }
 
 views-locations-shared-business_center = { $count ->
-   [one] $count business center
-  *[other] $count business center
-   [zero] $count business center
+   [zero] %{count} business center
+   [one] %{count} business center
+  *[other] %{count} business center
 }
 
 views-locations-shared-cart-add_location_to_list = Aggiungi alla tua lista
@@ -7353,9 +7317,9 @@ views-locations-shared-cart-remove_location_from_list = Rimuovi la locazione dal
 views-locations-shared-cart-see_details_about = Vedi dettagli su: %{location}  
 
 views-locations-shared-cart-selected_locations-location = { $count ->
+   [zero] locazioni
    [one] locazione
   *[other] locazioni
-   [zero] locazioni
 }
 
 views-locations-shared-cart-selected_locations-you_have_selected = Hai scelto
@@ -7377,9 +7341,9 @@ views-locations-shared-international_helper-get_help_finding_location = Ottieni 
 views-locations-shared-international_helper-help = Aiuto
 
 views-locations-shared-location = { $count ->
-   [one] $count locale commerciale
-  *[other] $count locali commerciali
    [zero] locali commerciali
+   [one] %{count} locale commerciale
+  *[other] %{count} locali commerciali
 }
 
 views-locations-shared-m2 = m²
@@ -7405,27 +7369,27 @@ views-locations-shared-nice_search-size_range_prefix = su
 views-locations-shared-nice_search-size_under = Non più di %{high} m² 
 
 views-locations-shared-office = { $count ->
-   [one] $count ufficio
-  *[other] $count uffici
    [zero] uffici
+   [one] %{count} ufficio
+  *[other] %{count} uffici
 }
 
 views-locations-shared-parking = parcheggi
 
 
 views-locations-shared-store = { $count ->
-   [one] $count negozio
-  *[other] $count negozi
    [zero] negozi
+   [one] %{count} negozio
+  *[other] %{count} negozi
 }
 
 views-locations-shared-virtual_office = Uffici virtuali
 
 
 views-locations-shared-warehouse = { $count ->
-   [one] $count magazzino e locale industriale
-  *[other] $count magazzini e locali industriali
-   [zero] $count magazzini e locali industriali
+   [zero] %{count} magazzini e locali industriali
+   [one] %{count} magazzino e locale industriale
+  *[other] %{count} magazzini e locali industriali
 }
 
 views-locations-show-build_route = Come arrivare
@@ -7443,8 +7407,9 @@ views-locations-show-facilities-show_more_link = Mostrami di più
 
 
 views-locations-show-more_locations = { $count ->
-  *[few] Mostra di più
+   [few] Mostra di più
    [many] Mostra di più
+  *[other] MISSING
 }
 
 views-locations-show-per_page_label = Mostra
@@ -7486,15 +7451,15 @@ views-locations-show-similar_locations-rent-warehouse = Locazioni industriali e 
 views-locations-show-title = %{kind} in affitto su %{address}
 
 views-locations-show-view_floor_plans = { $count ->
+   [zero] Vedi planimetrie
    [one] Vedi planimetria
   *[other] Vedi planimetrie
-   [zero] Vedi planimetrie
 }
 
 views-locations-show-view_photos = { $count ->
+   [zero] Vedi le foto
    [one] Vedi la foto
   *[other] Vedi le foto
-   [zero] Vedi le foto
 }
 
 views-locations-video-subtitle = Presentazione video
@@ -7695,7 +7660,7 @@ views-shared-show = mostra
 
 views-shared-support_link = Aiuto
 
-views-shared-units = $count pezzo.
+views-shared-units = %{count} pezzo.
 
 views-shared-we_support_link = Supportiamo
 
