@@ -3845,8 +3845,7 @@ pages--rented_out_locations--period = ultimi %{giorni} giorni.
 pages--rented_out_locations--rented_out_at_header = Locato(i) 
 
 pages--support--customers--bottomline =  Se non hai trovato risposte alla tua richiesta, ti invitiamo a contattarci 
- telefonando al n.:   +39800974702 o via e-mail %
- {email:info@matchoffice.com} 
+ telefonando al n.:   +39800974702 o via e-mail %{email:info@matchoffice.com}
 
 pages--support--customers--heading = Domande frequenti poste dai locatari
 
@@ -3858,8 +3857,7 @@ pages--support--customers--title = Aiuto per i locatari
 
 pages--support--providers--bottomline =  Se non hai trovato risposte alla tua richiesta, ti preghiamo di  
  contattarci
- al numero telefonico:  +39800974702 o via e-mail %
- {email:info@matchoffice.com}.
+ al numero telefonico:  +39800974702 o via e-mail %{email:info@matchoffice.com}.
 
 pages--support--providers--heading = Domande frequenti poste ai proprietari
 
