@@ -5194,7 +5194,7 @@ providers--locations--form--energy_rating_help = It's optional to type in additi
 
 providers--locations--form--energy_rating_order = Do not have energy label, you can order it here:
 
-providers--locations--form--energy_rating_service = Our collaborator offers renewals or completion of new energy certificates at the best market price. Click %{energy_rating_service_link:her} to read more.  
+providers--locations--form--energy_rating_service = Our collaborator offers renewals or completion of new energy certificates at the best market price. Click %{energy_rating_service_link} to read more.
 
 providers--locations--form--floor_plan_banner_content = Buy a 2D floor plan from 150 DKK.
 

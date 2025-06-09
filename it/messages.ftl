@@ -4621,7 +4621,7 @@ providers--locations--form--energy_rating_help = È facoltativo inserire ulterio
 
 providers--locations--form--energy_rating_order = Se non hai un'etichetta energetica puoi ordinarla qui:
 
-providers--locations--form--energy_rating_service = Il nostro collaboratore offre rinnovi o completamenti di nuovi certificati energetici al miglior prezzo di mercato. Fai clic su %{energy_rating_service_link: her} per saperne di più.  
+providers--locations--form--energy_rating_service = Il nostro collaboratore offre rinnovi o completamenti di nuovi certificati energetici al miglior prezzo di mercato. Fai clic su %{energy_rating_service_link} per saperne di più.
 
 providers--locations--form--header = Località
 
