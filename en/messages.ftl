@@ -1281,8 +1281,6 @@ apps--lb_showroom--detailed--book_showcase_form--lead_text = You can ask the lan
 
 apps--lb_showroom--detailed--combined_lease--title = The location is combined by the following types:
 
-apps--lb_showroom--detailed--combined_lease--title (Copy) = The location is combined by the following types:
-
 apps--lb_showroom--detailed--description--headline = Description of %{street_name}
 
 apps--lb_showroom--detailed--description--hide_more_link = Hide information
@@ -7303,8 +7301,6 @@ simple_form--labels--parking_lot--submit = Create parking space
 simple_form--labels--parking_lot--title = Title
 
 simple_form--no = No
-
-simple_form--no (Copy) = No
 
 simple_form--options--location--energy_rating--X = Exempted from energy rating
 

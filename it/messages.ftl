@@ -1008,8 +1008,6 @@ apps--lb_showroom--detailed--book_showcase_form--lead_text = Si può chiedere al
 
 apps--lb_showroom--detailed--combined_lease--title = La posizione è combinata dai seguenti tipi:
 
-apps--lb_showroom--detailed--combined_lease--title (Copy) = La posizione è combinata dai seguenti tipi:
-
 apps--lb_showroom--detailed--description--headline = Descrizione del %{street_name}
 
 apps--lb_showroom--detailed--description--hide_more_link =  Nascondi informazioni
@@ -6579,8 +6577,6 @@ simple_form--labels--parking_lot--submit = Crea spazio di parcheggio
 simple_form--labels--parking_lot--title = Titolo
 
 simple_form--no = No
-
-simple_form--no (Copy) = No
 
 simple_form--options--location--energy_rating--X = Esente da valutazione energetica
 
