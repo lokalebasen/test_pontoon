@@ -2593,8 +2593,8 @@ promo--promotional_providers--shared--shortcuts--stores =
     }
 promo--promotional_providers--shared--shortcuts--warehouses =
     { $count ->
-        [one] %{ count } lager- og produktionslokale
-       *[other] %{ count } lager- og produktionslokaler
+        [one] %{ count } lager- og produktionslokale test danish
+       *[other] %{ count } lager- og produktionslokaler test danish
     }
 promo--promo_admin--promotional_providers--new--new_promotional_provider_header = Opret ny promo udbyder
 promo--provider_call_backs--create--back = << Tilbage
