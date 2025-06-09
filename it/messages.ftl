@@ -12,8 +12,7 @@ activemodel--attributes--provider_service_request--company_name = Azienda
 
 activemodel--attributes--provider_service_request--email = E-mail
 
-activemodel--attributes--provider_service_request--person_full_name = Nome completo
-
+activemodel--attributes--provider_service_request--person_full_name =  Nome completo
 
 activemodel--attributes--provider_service_request--person_name = Nome
 
@@ -21,10 +20,10 @@ activemodel--attributes--provider_service_request--phone_number = Telefono
 
 activemodel--attributes--provider_service_request--phone_number_order_form = Numero di telefono
 
-activemodel--attributes--provider_service_request--propose_date_for_view = Proponi una data per vederlo
+activemodel--attributes--provider_service_request--propose_date_for_view =  Proponi una data per vederlo
 
+activemodel--attributes--provider_service_request--your_option =  facoltativo
 
-activemodel--attributes--provider_service_request--your_option = facoltativo
+activemodel--attributes--provider_service_request--your_question =  La tua domanda
 
-
-activemodel--attributes--provider_service_request--your_question = La tua domanda
+activemodel--attributes--service_request--area = Luogo

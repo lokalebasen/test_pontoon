@@ -14,8 +14,8 @@ activemodel--attributes--provider_service_request--email = E-mail
 
 activemodel--attributes--provider_service_request--jeudan_privacy_policy_error_message = You must give your acceptance in order to complete your request and for Jeudan to contact you.
 
-activemodel--attributes--provider_service_request--jeudan_privacy_policy_full = I agree that Jeudan A/S and Jeudan Projekt & Service A/S may contact me via e-mail, telephone and SMS with offers and information on leases and related services, including cleaning, crafts services, remodelling, planting services and parking.<br/><br/>
-Your consent can be revoked at any time by sending an email to <a href="mailto:salg@jeudan.dk">salg@jeudan.dk</a>.
+activemodel--attributes--provider_service_request--jeudan_privacy_policy_full =  I agree that Jeudan A/S and Jeudan Projekt & Service A/S may contact me via e-mail, telephone and SMS with offers and information on leases and related services, including cleaning, crafts services, remodelling, planting services and parking.<br/><br/>
+ Your consent can be revoked at any time by sending an email to <a href="mailto:salg@jeudan.dk">salg@jeudan.dk</a>.
 
 activemodel--attributes--provider_service_request--jeudan_privacy_policy_notice = One or more of the selected locations are owned by Jeudan A/S. We kindly ask you to accept the Jeudan A/S User Policy below.
 
