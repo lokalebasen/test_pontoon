@@ -2,5 +2,6 @@
 reference = "en/messages.ftl"
 l10n = "{locale}/messages.ftl"
 locales = [
-"it"
+"it",
+"da"
 ]
