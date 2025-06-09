@@ -4296,7 +4296,7 @@ pages--rented_out_locations--period = last %{days} days.
 pages--rented_out_locations--rented_out_at_header = Leased 
 
 pages--support--customers--bottomline =  If you didn't find answers to your enquiry, you are welcome to contact us 
- on tel:   (+45) 39 45 85 58 or via. email on %{email:info@matchoffice.com}
+ on tel:   (+45) 39 45 85 58 or via. email on %{email}
 
 pages--support--customers--heading = Frequently Asked Questions for Tenants
 
@@ -4308,7 +4308,7 @@ pages--support--customers--title = Help for tenants
 
 pages--support--providers--bottomline =  If you did not find answers to your enquiry, you are welcome to 
  contact us
- on Tel.:  (+45) 3945 8558or via. email on %{email:info@matchoffice.com}.
+ on Tel.:  (+45) 3945 8558or via. email on %{email}.
 
 pages--support--providers--heading = Frequently Asked Questions for Landlords
 
