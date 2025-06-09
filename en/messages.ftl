@@ -122,11 +122,6 @@ providers--pages--help--help_text_with_faq_link =  # Welcome to the CRM-system o
  If you want to change the contact information for a client this can be done by clicking the client, typing the new information under "contact information", and clicking "save information". The new entry will now replace the old contact information on the client through the entire system.
 
 
-lb_showroom--detailed--transport_distances--bus
+lb_showroom--detailed--transport_distances--bus = bus
 
-
- = bus
-
-lb_showroom--detailed--transport_distances--metro
-
- = metro
+lb_showroom--detailed--transport_distances--metro = metro
