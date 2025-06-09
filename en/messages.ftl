@@ -4035,7 +4035,7 @@ mercury_articles--index--title = Articles
 
 mercury_articles--show--edit = Edit
 
-metadata--tagline = %{business_space_link:Commercial space} for rent
+metadata--tagline = %{business_space_link} for rent
 
 news_articles--index--read_more = Read more
 

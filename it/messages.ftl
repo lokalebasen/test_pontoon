@@ -3594,7 +3594,7 @@ mercury_articles--index--title = Articoli
 
 mercury_articles--show--edit = Modifica
 
-metadata--tagline = %{business_space_link:Commercial space} in affitto
+metadata--tagline = %{business_space_link} in affitto
 
 news_articles--index--read_more = Leggi di più
 
