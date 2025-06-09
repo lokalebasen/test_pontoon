@@ -3778,8 +3778,8 @@ pages--how_it_works--customers--sub_heading_2 = Questo è il modo in cui richied
 
 pages--how_it_works--customers--sub_heading_3 = Questo è il modo in cui ricevi una notifica riguardante nuove locazioni disponibili
 
-pages--how_it_works--customers--text_box_1 =  Generalmente è possibile eseguire ricerche in 3 categorie: [kontorlokaler](%{office_url}), 
- [produktion/lager](%{warehouse_url}) e [butikslokaler](%{store_url}). Dalle home page delle categorie puoi cercare aree e città facendo clic sulla mappa e sui singoli nomi delle città. 
+pages--how_it_works--customers--text_box_1 =  Generalmente è possibile eseguire ricerche in 3 categorie: [kontorlokaler](%{office_url}), [produktion/lager](%{warehouse_url}) e [butikslokaler](%{store_url}).
+ Dalle home page delle categorie puoi cercare aree e città facendo clic sulla mappa e sui singoli nomi delle città.
  È anche possibile effettuare una [ricerca avanzata](%{search_url}) con ulteriori dettagli, ad esempio prezzo e dimensione.    
 
 pages--how_it_works--customers--text_box_2 = Per chiedere informazioni su una proprietà da affittare, basta fare clic sul pulsante e compilare il modulo. Sarai successivamente contattato direttamente dal proprietario. È possibile richiedere facilmente informazioni su più immobili da affittare in una sola volta.

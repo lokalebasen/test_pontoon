@@ -4229,8 +4229,8 @@ pages--how_it_works--customers--sub_heading_2 = This is how you order informatio
 
 pages--how_it_works--customers--sub_heading_3 = This is how you receive notification regarding new tenancies
 
-pages--how_it_works--customers--text_box_1 =  Generally you can search within 3 categories: [kontorlokaler](%{office_url}), 
- [produktion/lager](%{warehouse_url}) and [butikslokaler](%{store_url}). From the category front pages you can search areas and cities by clicking the map and the individual city names. 
+pages--how_it_works--customers--text_box_1 =  Generally you can search within 3 categories: [kontorlokaler](%{office_url}), [produktion/lager](%{warehouse_url}) and [butikslokaler](%{store_url}).
+ From the category front pages you can search areas and cities by clicking the map and the individual city names.
  You are also able to do an [avanceret søgning](%{search_url}) with more details - for example price and size.    
 
 pages--how_it_works--customers--text_box_2 = To order information on a property to rent, you just need to click the button and fill out the form. You will subsequently be contacted directly by the landlord. You can easily order information on several properties to rent in one go.
