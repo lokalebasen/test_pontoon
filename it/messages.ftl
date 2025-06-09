@@ -2316,9 +2316,9 @@ promo--promotional_providers--shared--shortcuts--stores =
     }
 promo--promotional_providers--shared--shortcuts--warehouses =
     { $count ->
-        [one] %{ count } spazio industriale e magazzino
-        [zero] spazio industriale e magazzino
-       *[other] %{ count } spazio industriale e magazzino
+        [one] %{ count } spazio industriale e magazzino test italian
+        [zero] spazio industriale e magazzino test italian
+       *[other] %{ count } spazio industriale e magazzino test italian
     }
 promo--provider_call_backs--create--back = << Indietro
 promo--provider_call_backs--create--mail_is_sent = I tuoi dati vengono inviati all'azienda e un rappresentante ti contatterà al più presto.
