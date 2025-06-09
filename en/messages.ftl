@@ -28,3 +28,9 @@ activemodel--attributes--provider_service_request--person_name = Name
 activemodel--attributes--provider_service_request--phone_number = Telephone
 
 activemodel--attributes--provider_service_request--phone_number_order_form = Phone number
+
+activerecord--attributes--deal--states__confirmed = { $count ->
+   [one] Confirmed
+   [zero] Confirmed
+  *[other] Confirmed
+}
