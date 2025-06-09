@@ -2321,9 +2321,9 @@ promo--promotional_providers--shared--shortcuts--stores =
     }
 promo--promotional_providers--shared--shortcuts--warehouses =
     { $count ->
-        [one] %{ count } local de production et d'entrepôt
-        [zero] %{ count }
-       *[other] %{ count } locaux de production et d'entrepôt
+        [one] %{ count } local de production et d'entrepôt test french
+        [zero] %{ count } test french
+       *[other] %{ count } locaux de production et d'entrepôt test french
     }
 promo--provider_call_backs--create--back = << Retour
 promo--provider_call_backs--create--mail_is_sent = Vos données sont envoyées à l'entreprise et un représentant vous contactera dans le plus bréf délai.
