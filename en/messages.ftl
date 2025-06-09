@@ -34,3 +34,7 @@ activerecord--attributes--deal--states__confirmed = { $count ->
    [zero] Confirmed
   *[other] Confirmed
 }
+
+activerecord--attributes--property--provider_website_link_tooltip =  Insert a link to your own website so potential tenants can see more on your site. <p></p>
+ You must upgrade your profile to Basic Plus or Premium to have the link appear on your ad.<p></p>
+ Write to us at <a href="mailto: info@lokalebasen.dk">info@lokalebasen.dk</a> to have your profile upgraded.
