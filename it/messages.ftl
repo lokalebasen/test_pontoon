@@ -10,3 +10,7 @@ activemodel--attributes--provider_service_request--person_full_name = Nome compl
 activemodel--attributes--provider_service_request--person_name = Nome
 activemodel--attributes--provider_service_request--phone_number = Telefono
 activemodel--attributes--provider_service_request--phone_number_order_form = Numero di telefono
+activerecord--attributes--property--provider_website_link_tooltip =
+    Italian text. <p></p>
+    Italian text.<p></p>
+    Italian text <a href="mailto: info@lokalebasen.dk">info@lokalebasen.dk</a> Italian text.
