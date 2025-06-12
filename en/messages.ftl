@@ -194,18 +194,24 @@ activerecord--attributes--deal--state = Status
 activerecord--attributes--deal--states__confirmed = { $count ->
    [one] Confirmed
    [zero] Confirmed
+   [few] 
+   [many] 
   *[other] Confirmed
 }
 
 activerecord--attributes--deal--states__created = { $count ->
    [one] Created
    [zero] Created
+   [few] 
+   [many] 
   *[other] Created
 }
 
 activerecord--attributes--deal--states__denied = { $count ->
    [one] Denied
    [zero] Denied
+   [few] 
+   [many] 
   *[other] Denied
 }
 
@@ -242,6 +248,8 @@ activerecord--attributes--deal--states__paid = { $count ->
 activerecord--attributes--deal--states__unresolved = { $count ->
    [one] Unresolved
    [zero] Unresolved 
+   [few] 
+   [many] 
   *[other] Unresolved
 }
 
@@ -412,6 +420,8 @@ activerecord--attributes--location--state = Status
 activerecord--attributes--location--states--rented_out = { $count ->
    [one] Rented out
    [zero] Rented out
+   [few] 
+   [many] 
   *[other] Rented out
 }
 
@@ -424,12 +434,16 @@ activerecord--attributes--location--states--temporarily_unavailable_short = Unav
 activerecord--attributes--location--states__active = { $count ->
    [one] Active
    [zero] Active
+   [few] 
+   [many] 
   *[other] Active
 }
 
 activerecord--attributes--location--states__closed = { $count ->
    [one] Deactivated
    [zero] Deactivated
+   [few] 
+   [many] 
   *[other] Deactivated
 }
 
@@ -438,12 +452,16 @@ activerecord--attributes--location--states__legitimate = Legitimate
 activerecord--attributes--location--states__new = { $count ->
    [one] New
    [zero] New
+   [few] 
+   [many] 
   *[other] New
 }
 
 activerecord--attributes--location--states__not_visible = { $count ->
    [one] Not visible
    [zero] Not visible
+   [few] 
+   [many] 
   *[other] Not visible
 }
 
@@ -452,6 +470,8 @@ activerecord--attributes--location--states__rejected = Rejected
 activerecord--attributes--location--states__rented_out = { $count ->
    [one] Rented out
    [zero] Rented out
+   [few] 
+   [many] 
   *[other] Rented out
 }
 
@@ -464,12 +484,16 @@ activerecord--attributes--location--states__suspicious = Suspicious
 activerecord--attributes--location--states__unfinished = { $count ->
    [one] Unfinished
    [zero] Unfinished
+   [few] 
+   [many] 
   *[other] Unfinished
 }
 
 activerecord--attributes--location--states__unverified = { $count ->
    [one] Unverified
    [zero] Unverified
+   [few] 
+   [many] 
   *[other] Unverified
 }
 
@@ -545,6 +569,20 @@ activerecord--attributes--location--yearly_water_cost_per_m2 = Annual water cost
 
 activerecord--attributes--location--year_built = Year built
 
+activerecord--attributes--location--deposit_and_prepaid_rent = 
+
+activerecord--attributes--location--lot_area = 
+
+activerecord--attributes--location--price_per_m2 = 
+
+activerecord--attributes--location--return_rate = 
+
+activerecord--attributes--location--sale_price = 
+
+activerecord--attributes--location--summary__body_for_sales = 
+
+activerecord--attributes--location--yearly_rental_income = 
+
 activerecord--attributes--location_contact--roles__primary = Primary contact
 
 activerecord--attributes--location_contact--roles__subscriber = Secondary contact
@@ -564,12 +602,16 @@ activerecord--attributes--notification--state = Status
 activerecord--attributes--notification--states__pending = { $count ->
    [one] pending
    [zero] pending
+   [few] 
+   [many] 
   *[other] pending
 }
 
 activerecord--attributes--notification--states__processed = { $count ->
    [one] Processed
    [zero] Processed
+   [few] 
+   [many] 
   *[other] Processed
 }
 
@@ -625,6 +667,12 @@ activerecord--attributes--promo__promotional_provider--contact_name = Contact na
 
 activerecord--attributes--promo__promotional_provider--homepage = Website
 
+activerecord--attributes--promo__promotional_provider--name = 
+
+activerecord--attributes--promo__promotional_provider--provider_id = 
+
+activerecord--attributes--promo__promotional_provider--provider_type = 
+
 activerecord--attributes--promotional_provider--name = Name
 
 activerecord--attributes--property--category = Category
@@ -642,6 +690,46 @@ activerecord--attributes--property--provider_website_link_new = Link to own webs
 activerecord--attributes--property--provider_website_link_tooltip =  Insert a link to your own website so potential tenants can see more on your site. <p></p>
  You must upgrade your profile to Basic Plus or Premium to have the link appear on your ad.<p></p>
  Write to us at <a href="mailto: info@lokalebasen.dk">info@lokalebasen.dk</a> to have your profile upgraded.
+
+activerecord--attributes--property--address_line_1 = 
+
+activerecord--attributes--property--address_line_2 = 
+
+activerecord--attributes--property--contact = 
+
+activerecord--attributes--property--deposit_and_prepaid_rent = 
+
+activerecord--attributes--property--facilities = 
+
+activerecord--attributes--property--floor_area = 
+
+activerecord--attributes--property--lot_area = 
+
+activerecord--attributes--property--postal_code = 
+
+activerecord--attributes--property--postal_name = 
+
+activerecord--attributes--property--price = 
+
+activerecord--attributes--property--price_per_m2 = 
+
+activerecord--attributes--property--profit = 
+
+activerecord--attributes--property--return = 
+
+activerecord--attributes--property--stored_or_calculated_return = 
+
+activerecord--attributes--property--title = 
+
+activerecord--attributes--property--yearly_operational_cost = 
+
+activerecord--attributes--property--yearly_operational_cost_per_m2 = 
+
+activerecord--attributes--property--yearly_rental_income = 
+
+activerecord--attributes--property--yearly_rental_income_per_m2 = 
+
+activerecord--attributes--property--year_built = 
 
 activerecord--attributes--provider--accepted_contract_strategy = Accepted agreement 
 
@@ -688,6 +776,10 @@ activerecord--attributes--provider--terms_of_service = The terms of service
 activerecord--attributes--provider--vat_id = VAT Registration no.*
 
 activerecord--attributes--provider--vip = VIP provider
+
+activerecord--attributes--provider--ean = 
+
+activerecord--attributes--provider--rent_commission_rate = 
 
 activerecord--attributes--provider_deal--comment = Comment
 
@@ -760,12 +852,16 @@ activerecord--errors--models--provider_deal--attributes--base--location_missing 
 activerecord--models--area = { $count ->
    [one] area
    [zero] areas
+   [few] 
+   [many] 
   *[other] areas
 }
 
 activerecord--models--article = { $count ->
    [one] news
    [zero] news
+   [few] 
+   [many] 
   *[other] news
 }
 
@@ -780,6 +876,8 @@ activerecord--models--client = clients
 activerecord--models--client_deal_feedback = { $count ->
    [one] client enquiry
    [zero] client enquires
+   [few] 
+   [many] 
   *[other] client enquiries
 }
 
@@ -802,6 +900,8 @@ activerecord--models--contact--many = Many
 activerecord--models--contact--short = { $count ->
    [one] contact
    [zero] contacts
+   [few] 
+   [many] 
   *[other] contacts
 }
 
@@ -812,24 +912,32 @@ activerecord--models--custom_seo = Individually tailored SEO
 activerecord--models--deal = { $count ->
    [one] agreement
    [zero] agreements
+   [few] 
+   [many] 
   *[other] agreements
 }
 
 activerecord--models--enquiry = { $count ->
    [one] Enquiry
    [zero] Enquiries
+   [few] 
+   [many] 
   *[other] Enquiries
 }
 
 activerecord--models--floor_plan_asset = { $count ->
    [one] floor plan
    [zero] floor plans
+   [few] 
+   [many] 
   *[other] floor plans
 }
 
 activerecord--models--invoice_recipient = { $count ->
    [one] Invoice recipient
    [zero] Invoice recipients
+   [few] 
+   [many] 
   *[other] Invoice recipients
 }
 
@@ -842,12 +950,16 @@ activerecord--models--keyword = { $count ->
 activerecord--models--lease = { $count ->
    [one] letting
    [zero] lettings
+   [few] 
+   [many] 
   *[other] lettings
 }
 
 activerecord--models--location = { $count ->
    [one] lease
    [zero] leases
+   [few] 
+   [many] 
   *[other] leases
 }
 
@@ -860,18 +972,24 @@ activerecord--models--matched_order = { $count ->
 activerecord--models--mercury__article = { $count ->
    [one] article
    [zero] articles
+   [few] 
+   [many] 
   *[other] articles 
 }
 
 activerecord--models--mercury__image = { $count ->
    [one] image
    [zero] images
+   [few] 
+   [many] 
   *[other] images
 }
 
 activerecord--models--note = { $count ->
    [one] Note
    [zero] Notes
+   [few] 
+   [many] 
   *[other] Notes
 }
 
@@ -884,12 +1002,16 @@ activerecord--models--notification = { $count ->
 activerecord--models--order = { $count ->
    [one] order
    [zero] orders
+   [few] 
+   [many] 
   *[other] orders
 }
 
 activerecord--models--photo_asset = { $count ->
    [one] photo
    [zero] photos
+   [few] 
+   [many] 
   *[other] photos
 }
 
@@ -908,12 +1030,16 @@ activerecord--models--promotional_provider = { $count ->
 activerecord--models--prospectus_asset = { $count ->
    [one] prospectus
    [zero] prospectuses
+   [few] 
+   [many] 
   *[other] prospectuses
 }
 
 activerecord--models--provider = { $count ->
    [one] provider
    [zero] providers
+   [few] 
+   [many] 
   *[other] providers
 }
 
@@ -926,6 +1052,8 @@ activerecord--models--provider_deal = { $count ->
 activerecord--models--reminder = { $count ->
    [one] Reminder
    [zero] Reminders
+   [few] 
+   [many] 
   *[other] Reminders
 }
 
@@ -938,19 +1066,37 @@ activerecord--models--reward_pick = { $count ->
 activerecord--models--search = { $count ->
    [one] search
    [zero] searches
+   [few] 
+   [many] 
   *[other] searches
 }
 
 activerecord--models--search_agent = { $count ->
    [one] search agent
    [zero] search agents
+   [few] 
+   [many] 
   *[other] search agents
 }
 
 activerecord--models--service_request = { $count ->
    [one] enquiry
    [zero] enquiries
+   [few] 
+   [many] 
   *[other] enquiries
+}
+
+activerecord--models--administrator = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+activerecord--model--property = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
 }
 
 admin--author_comments--create--contact_author_comment = Comment from provider
@@ -979,9 +1125,15 @@ apps--catalog--seo--custom_page--title = Commercial Spaces | %{site_name}
 
 apps--entry_page--activerecord--attributes--featured_advert--price_lease = Yearly rent per m²
 
+apps--entry_page--activerecord--attributes--featured_advert--price_investment_sale = 
+
+apps--entry_page--activerecord--attributes--featured_advert--price_user_sale = 
+
 apps--entry_page--activerecord--models--featured_advert = { $count ->
    [one] featured ad
    [zero] featured ads
+   [few] 
+   [many] 
   *[other] featured ads
 }
 
@@ -1000,6 +1152,7 @@ apps--entry_page--activerecord--models--page = { $count ->
 
 apps--entry_page--activerecord--models--routing_dictionary = { $count ->
    [one] routing dictionary
+   [zero] 
   *[other] routing dictionaries
 }
 
@@ -1012,6 +1165,10 @@ apps--entry_page--activerecord--models--site = { $count ->
 apps--entry_page--benefits_headline = Why people use our service
 
 apps--entry_page--entry_pages--become_provider_text--become_provider_now = List your office
+
+apps--entry_page--entry_pages--become_provider_text--become_provider_headline_1 = 
+
+apps--entry_page--entry_pages--become_provider_text--become_provider_headline_2 = 
 
 apps--entry_page--entry_pages--choose_province--headline = Choose area
 
@@ -1039,6 +1196,12 @@ apps--entry_page--entry_pages--show--cta_section--lease--become_provider_now = L
 
 apps--entry_page--entry_pages--show--cta_section--receive_emails = Receive e-mails with new %{type}.
 
+apps--entry_page--entry_pages--show--cta_section--sales--advertise_on_lb = 
+
+apps--entry_page--entry_pages--show--cta_section--sales--become_provider_now = 
+
+apps--entry_page--entry_pages--show--cta_section--sales--receive_emails = 
+
 apps--entry_page--entry_pages--show--lease--all = leases
 
 apps--entry_page--entry_pages--show--lease--business_centers = serviced offices
@@ -1059,9 +1222,29 @@ apps--entry_page--entry_pages--show--lease--virtual_offices = virtual offices
 
 apps--entry_page--entry_pages--show--lease--warehouses = warehouses for rent
 
+apps--entry_page--entry_pages--show--lease--meeting_rooms_modelokaler = 
+
 apps--entry_page--entry_pages--show--newest = Newest
 
+apps--entry_page--entry_pages--show--newest_properties_headline = 
+
+apps--entry_page--entry_pages--show--popular_properties_headline = 
+
+apps--entry_page--entry_pages--show--property--all = 
+
+apps--entry_page--entry_pages--show--property--housings = 
+
+apps--entry_page--entry_pages--show--property--offices = 
+
+apps--entry_page--entry_pages--show--property--stores = 
+
+apps--entry_page--entry_pages--show--property--warehouses = 
+
 apps--entry_page--entry_pages--splash_text--splash_text_headline_2 = for sale in Denmark
+
+apps--entry_page--entry_pages--splash_text--splash_text_body = 
+
+apps--entry_page--entry_pages--splash_text--splash_text_headline_1 = 
 
 apps--entry_page--entry_pages--tenant_box--create_search_agent = Create a search agent
 
@@ -1069,9 +1252,83 @@ apps--entry_page--entry_pages--tenant_box--create_search_agent_subtitle = new le
 
 apps--entry_page--entry_pages--tenant_box--tenant_box_advantages = It is **free, fast and easy!**
 
+apps--entry_page--entry_pages--about_us_body--about_us_headline_main_headline = 
+
+apps--entry_page--entry_pages--contact_form--are_you_landlord = 
+
+apps--entry_page--entry_pages--contact_form--are_you_rent = 
+
+apps--entry_page--entry_pages--contact_form--call_us = 
+
+apps--entry_page--entry_pages--contact_form--click_here = 
+
+apps--entry_page--entry_pages--contact_form--email_us = 
+
+apps--entry_page--entry_pages--contact_form--faq = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_1--description = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_1--title = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_2--description = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_2--title = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_3--description = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_3--title = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_4--description = 
+
+apps--entry_page--entry_pages--contact_form--landlord--page_4--title = 
+
+apps--entry_page--entry_pages--contact_form--landlord--title = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_1--description = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_1--title = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_2--description = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_2--title = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_3--description = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_3--title = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_4--description = 
+
+apps--entry_page--entry_pages--contact_form--tenant--page_4--title = 
+
+apps--entry_page--entry_pages--contact_form--tenant--title = 
+
+apps--entry_page--entry_pages--contact_form--title = 
+
+apps--entry_page--entry_pages--featured_carousel--goto_property_link = 
+
+apps--entry_page--entry_pages--become_provider_advantages--provider_advantage_1 = 
+
+apps--entry_page--entry_pages--become_provider_advantages--provider_advantage_2 = 
+
+apps--entry_page--entry_pages--become_provider_advantages--provider_advantage_3 = 
+
+apps--entry_page--entry_pages--become_provider_advantages--provider_advantage_4 = 
+
+apps--entry_page--entry_pages--become_provider_advantages--provider_advantage_5 = 
+
+apps--entry_page--entry_pages--become_provider_advantages--provider_advantage_6 = 
+
+apps--entry_page--entry_pages--become_provider_advantages--read_more_text = 
+
 apps--entry_page--generic--million_abbreviation = MM
 
 apps--entry_page--generic--models--property--kinds--warehouse = warehouse
+
+apps--entry_page--generic--models--property--kinds--housing = 
+
+apps--entry_page--generic--models--property--kinds--office = 
+
+apps--entry_page--generic--models--property--kinds--store = 
 
 apps--entry_page--generic--not_provided = Ask the landlord
 
@@ -1165,6 +1422,8 @@ apps--entry_page--search_area--value_points--lease--virtual_office = Wide select
 
 apps--entry_page--search_area--value_points--lease--warehouse = Wide selection of warehouses all over the world 
 
+apps--entry_page--search_area--value_points--lease--two_dk = 
+
 apps--entry_page--search_area--value_points--property--one_full = 100% free and noncommittal
 
 apps--entry_page--search_area--value_points--property--one_full_new = free and noncommittal
@@ -1174,6 +1433,10 @@ apps--entry_page--search_area--value_points--property--second = Search in all pr
 apps--entry_page--search_area--value_points--property--third = Easy, quick and safe
 
 apps--entry_page--search_area--value_points--sale--fourth = Direct contact to the landlord of sale
+
+apps--entry_page--search_area--property--header = 
+
+apps--entry_page--search_area--property--search_header = 
 
 apps--entry_page--unsubscription--alert = Please select at least one category to unsubscribe from.
 
@@ -1192,6 +1455,8 @@ apps--entry_page--unsubscription--category_names--search_agent = Search agents
 apps--entry_page--unsubscription--category_names--status_reminder = Status reminders
 
 apps--entry_page--unsubscription--category_names--unavoidable_emails = Unavoidable Emails
+
+apps--entry_page--unsubscription--category_names--lease_agreement = 
 
 apps--entry_page--unsubscription--email_unsubscribing = The e-mail you're unsubscribing is:
 
@@ -1243,6 +1508,10 @@ apps--entry_page--widgets--news_widget--success_signup = Awesome!
 
 apps--entry_page--widgets--news_widget--success_signup_close = Close
 
+apps--entry_page--widgets--popular_areas--popular_area_investment_link = 
+
+apps--entry_page--widgets--popular_areas--popular_area_user_link = 
+
 apps--lb_showroom--bottom_seo--headline_coworking_dk = %{location} has an attractive average price for available %{location_kinds}
 
 apps--lb_showroom--bottom_seo--headline_paragraph_coworking_dk = This table shows the data on the available %{location_kinds} - %{location} is in focus.
@@ -1280,8 +1549,6 @@ apps--lb_showroom--detailed--book_showcase_form--info_text = You can ask the lan
 apps--lb_showroom--detailed--book_showcase_form--lead_text = You can ask the landlord to book a time to view the selected lease.
 
 apps--lb_showroom--detailed--combined_lease--title = The location is combined by the following types:
-
-apps--lb_showroom--detailed--combined_lease--title (Copy) = The location is combined by the following types:
 
 apps--lb_showroom--detailed--description--headline = Description of %{street_name}
 
@@ -1408,6 +1675,8 @@ apps--lb_showroom--detailed--facts--rent_with_operation = Rent incl. operation
 apps--lb_showroom--detailed--facts--total_rent_per_month = Total rent per month incl. operation and heating
 
 apps--lb_showroom--detailed--facts--yearly_price_per_m2 = Yearly price m²
+
+apps--lb_showroom--detailed--facts--sales_price = 
 
 apps--lb_showroom--detailed--get_more_insights = Get more insight
 
@@ -1573,6 +1842,10 @@ apps--lb_showroom--detailed--order_form--validation--too_many_similar_symbols = 
 apps--lb_showroom--detailed--order_form--validation--wrong_email = Invalid email 
 
 apps--lb_showroom--detailed--order_form--what_is_your_data_used_for_header = What are your personal data used for?
+
+apps--lb_showroom--detailed--order_form--sales_lead = 
+
+apps--lb_showroom--detailed--order_form--send_moving_services = 
 
 apps--lb_showroom--detailed--provider_message_form--headline = Send message
 
@@ -1744,6 +2017,10 @@ apps--lb_showroom--navigation--sale = Buy / sell
 
 apps--lb_showroom--navigation--wiki_estate = WikiEstate
 
+apps--lb_showroom--navigation--lejekontrakt = 
+
+apps--lb_showroom--navigation--statistics = 
+
 apps--lb_showroom--nearby_locations = Nearby locations
 
 apps--lb_showroom--nearby_locations_description = We kindly suggest having a look at the nearest locations to your selected position.
@@ -1777,6 +2054,10 @@ apps--lb_showroom--seach_area--state_city_or_street = Write state, city, or stre
 apps--lb_showroom--search_area--lease--what_are_you_searching_for = Which type of location are you looking for?
 
 apps--lb_showroom--search_area--lease--where_are_you_searching_for = Where should the location be located?
+
+apps--lb_showroom--search_area--property--what_are_you_searching_for = 
+
+apps--lb_showroom--search_area--property--where_are_you_searching_for = 
 
 apps--lb_showroom--showroom--area_filter--no_results--first = No results were found.
 
@@ -1819,12 +2100,16 @@ apps--lb_showroom--showroom--list--empty_list--searched_for = You have searched 
 apps--lb_showroom--showroom--list--empty_list--selected_areas = { $count ->
    [one] Area: 
    [zero] Areas: 
+   [few] 
+   [many] 
   *[other] Areas: 
 }
 
 apps--lb_showroom--showroom--list--empty_list--selected_kinds = { $count ->
    [one] Type of properties: 
    [zero] Types of properties: 
+   [few] 
+   [many] 
   *[other] Types of properties: 
 }
 
@@ -1859,6 +2144,8 @@ apps--lb_showroom--showroom--list--shown_tooltip = Property has been shown
 apps--lb_showroom--showroom--list--show_advert_as = Show %{advert_type} as
 
 apps--lb_showroom--showroom--list--too_many_results = Only showing the first %{bound} of %{actual} results. You can change your search criteria on the left.
+
+apps--lb_showroom--showroom--list--grid = 
 
 apps--lb_showroom--showroom--main--kinds_placeholder =  Select type
 
@@ -1897,6 +2184,8 @@ apps--lease--views--location_adverts--banner_title--deactivated = Deactivated
 apps--lease--views--location_adverts--banner_title--rented_out = Rented out
 
 apps--lease--views--location_adverts--show--banner_title = Rented out
+
+apps--lease--views--location_adverts--badge_title--disposal = 
 
 apps--lease--views--providers--clients--search_agents--location = Location
 
@@ -1950,6 +2239,8 @@ apps--lokalebasen_header--top--commercial_premises_for_rent = Commercial premise
 apps--lokalebasen_header--top--toggle_navigation = Toggle navigation
 
 apps--lokalebasen_header--top--to_the_frontpage = To the frontpage
+
+apps--lokalebasen_header--top--commercial_premises_for_sale = 
 
 apps--simple_cms--news--back_button = Back to all news
 
@@ -2289,6 +2580,28 @@ date--formats--textual = %e. %B %Y
 
 detailed--location--gallery--landscape--paragraph_buttom = Will open in a new window
 
+detailed--location--gallery--landscape--cta = 
+
+detailed--location--gallery--landscape--heading = 
+
+detailed--location--gallery--landscape--paragraph_1 = 
+
+detailed--location--gallery--landscape--paragraph_2 = 
+
+detailed--location--gallery--landscape--paragraph_3 = 
+
+detailed--location--gallery--interior_design--button = 
+
+detailed--location--gallery--interior_design--paragraph = 
+
+detailed--location--gallery--interior_design--paragraph_mobile = 
+
+detailed--location--gallery--interior_design--subparagraph = 
+
+detailed--location--gallery--interior_design--subtitle = 
+
+detailed--location--gallery--interior_design--title = 
+
 detailed--location--headline = Location
 
 energy_certificate--name--breeam = BREEAM
@@ -2308,6 +2621,8 @@ entry_pages--ai_search--tab_label = AI Search
 entry_pages--ai_search--tooltip = The more detailed you describe your request, the more accurate the result will be
 
 entry_pages--become_provider_advantages--provider_advantage_2 = Advertisement to a relevant and motivated target group
+
+entry_pages--become_provider_advantages--read_more_text = 
 
 entry_pages--choose_area--choose_area_headline = Choose area
 
@@ -2358,6 +2673,24 @@ entry_pages--show--cta_section--search_for_me = Let MatchOffice search for me
 entry_pages--show--newest_adverts--last_updated_at = Last updated:
 
 entry_pages--show--your_logo_here = List your office
+
+entry_pages--show--newest_properties_headline = 
+
+entry_pages--show--popular_properties_headline = 
+
+entry_pages--about_us_body--about_us_headline_main_headline = 
+
+entry_pages--become_provider_text--become_provider_headline_1 = 
+
+entry_pages--become_provider_text--become_provider_headline_2 = 
+
+entry_pages--featured_carousel--goto_property_link = 
+
+entry_pages--splash_text--splash_text_body = 
+
+entry_pages--splash_text--splash_text_headline_1 = 
+
+entry_pages--splash_text--splash_text_headline_2 = 
 
 errors--messages--extension_white_list_error = You do not have permission to upload %{extension} files. Allowed file types: %{allowed_types}
 
@@ -2458,6 +2791,8 @@ favorite_locations--limit_exceeded_error_message_lease = Looks like the page wit
 favorite_locations--share_list = Share the list
 
 favorite_locations--subtitle = You have saved %{locations_count} favorites.
+
+favorite_locations--limit_exceeded_error_message_sale = 
 
 general--refresh-page = refresh the page
 
@@ -2701,6 +3036,8 @@ generic--loading = Loading
 
 generic--location--type--lease = lease
 
+generic--location--type--sale = 
+
 generic--locations = Locations
 
 generic--login = Log in
@@ -2732,6 +3069,8 @@ generic--model--actions--index_subject = Show all %{subject}
 generic--model--actions--manage_subject = { $count ->
    [one] Manage %{subject}
    [zero] Manage %{subject}
+   [few] 
+   [many] 
   *[other] Manage %{subject}
 }
 
@@ -2758,7 +3097,37 @@ generic--models--property--category--own_use = Own use
 
 generic--models--property--category--sale = sale
 
+generic--models--property--category--lot = { $count ->
+   [one] 
+  *[other] 
+}
+
+generic--models--property--category--the_investment = 
+
+generic--models--property--category--the_user = 
+
+generic--models--property--category--user = { $count ->
+   [one] 
+  *[other] 
+}
+
 generic--models--property--kinds--warehouse = warehouse
+
+generic--models--property--kinds--housing = 
+
+generic--models--property--kinds--lot = 
+
+generic--models--property--kinds--office = 
+
+generic--models--property--kinds--store = 
+
+generic--models--property--kinds_capitalized--housing = 
+
+generic--models--property--kinds_capitalized--office = 
+
+generic--models--property--kinds_capitalized--store = 
+
+generic--models--property--kinds_capitalized--warehouse = 
 
 generic--monthly_rent = Monthly rent
 
@@ -3022,6 +3391,18 @@ generic--white_paper_thank_you_page = Thank you
 
 generic--yes = Yes
 
+generic--buy = 
+
+generic--commercial_lot = 
+
+generic--hotline = 
+
+generic--housing = 
+
+generic--lot = 
+
+generic--residential_lot = 
+
 global--models--combined_location--kinds--basement--normal = Basement
 
 global--models--combined_location--kinds--file_storage--normal = File storage
@@ -3043,18 +3424,24 @@ global--models--location--for_sale = %{kind} for rent -
 global--models--location--kinds--business_center--normal = { $count ->
    [one] business center
    [zero] business center
+   [few] 
+   [many] 
   *[other] business centers
 }
 
 global--models--location--kinds--business_center--seo_statistics = { $count ->
    [one] business center
    [zero] business center
+   [few] 
+   [many] 
   *[other] business center
 }
 
 global--models--location--kinds--business_center--short = { $count ->
    [one] business center
    [zero] business center
+   [few] 
+   [many] 
   *[other] business centers
 }
 
@@ -3065,18 +3452,24 @@ global--models--location--kinds--cafe--short = Cafe/restaurant
 global--models--location--kinds--clinic--normal = { $count ->
    [one] clinic
    [zero] clinics
+   [few] 
+   [many] 
   *[other] clinics
 }
 
 global--models--location--kinds--clinic--short = { $count ->
    [one] clinic
    [zero] clinics
+   [few] 
+   [many] 
   *[other] clinics
 }
 
 global--models--location--kinds--coworking--normal = { $count ->
    [one] coworking
    [zero] coworking
+   [few] 
+   [many] 
   *[other] coworking
 }
 
@@ -3087,12 +3480,16 @@ global--models--location--kinds--coworking--short = coworking
 global--models--location--kinds--education--normal = { $count ->
    [one] education
    [zero] education
+   [few] 
+   [many] 
   *[other] education
 }
 
 global--models--location--kinds--education--short = { $count ->
    [one] education
    [zero] education
+   [few] 
+   [many] 
   *[other] education
 }
 
@@ -3105,54 +3502,71 @@ global--models--location--kinds--event_space--normal = { $count ->
 global--models--location--kinds--event_space--short = { $count ->
    [one] event space
    [zero] event space
+   [many] 
   *[other] event spaces
 }
 
 global--models--location--kinds--hair_salon--normal = { $count ->
    [one] hair salon
    [zero] hair salons
+   [few] 
+   [many] 
   *[other] hair salons
 }
 
 global--models--location--kinds--hair_salon--short = { $count ->
    [one] hair salon
    [zero] hair salons
+   [few] 
+   [many] 
   *[other] hair salons
 }
 
 global--models--location--kinds--high_ceiling_storage--normal = { $count ->
    [one] high ceiling storage
    [zero] high ceiling storages
+   [few] 
+   [many] 
   *[other] high ceiling storages
 }
 
 global--models--location--kinds--high_ceiling_storage--short = { $count ->
    [one] high ceiling storage
    [zero] high ceiling storages
+   [few] 
+   [many] 
   *[other] high ceiling storages
 }
 
 global--models--location--kinds--location--normal = { $count ->
    [one] commercial leases
    [zero] commercial leases
+   [few] 
+   [many] 
   *[other] commercial leases
 }
 
 global--models--location--kinds--location--seo_statistics = { $count ->
    [one] commercial leases
    [zero] commercial leases
+   [few] 
+   [many] 
   *[other] commercial leases
 }
 
 global--models--location--kinds--location--short = { $count ->
    [one] space
    [zero] spaces
+   [few] 
+   [many] 
   *[other] spaces
 }
 
 global--models--location--kinds--meeting_room--normal = { $count ->
    [one] meeting room
    [zero] meeting room
+   [few] 
+   [many] 
   *[other] meeting room
 }
 
@@ -3163,77 +3577,104 @@ global--models--location--kinds--meeting_room--short = meeting room
 global--models--location--kinds--normal = { $count ->
    [one] commercial lease
    [zero] commercial leases
+   [few] 
+   [many] 
   *[other] commercial leases
 }
 
 global--models--location--kinds--office--normal = { $count ->
    [one] office
    [zero] offices
+   [few] 
+   [many] 
   *[other] offices
 }
 
 global--models--location--kinds--office--seo_statistics = { $count ->
    [one] office
    [zero] office
+   [few] 
+   [many] 
   *[other] office
 }
 
 global--models--location--kinds--office--short = { $count ->
    [one] office
+   [zero] 
+   [few] 
+   [many] 
   *[other] offices
 }
 
 global--models--location--kinds--parking--normal = { $count ->
    [one] parking
    [zero] parkings
+   [few] 
+   [many] 
   *[other] parkings
 }
 
 global--models--location--kinds--parking--seo_statistics = { $count ->
    [one] parkings
    [zero] parkings
+   [few] 
+   [many] 
   *[other] parkings
 }
 
 global--models--location--kinds--parking--short = { $count ->
    [one] parking
    [zero] parkings
+   [few] 
+   [many] 
   *[other] parkings
 }
 
 global--models--location--kinds--popup_store--normal = { $count ->
    [one] pop-up shops
    [zero] pop-up shops
+   [few] 
+   [many] 
   *[other] pop-up shops
 }
 
 global--models--location--kinds--popup_store--short = { $count ->
    [one] pop-up shop
    [zero] pop-up shops
+   [few] 
+   [many] 
   *[other] pop-up shops
 }
 
 global--models--location--kinds--production--normal = { $count ->
    [one] production
    [zero] productions
+   [few] 
+   [many] 
   *[other] productions
 }
 
 global--models--location--kinds--production--short = { $count ->
    [one] production
    [zero] productions
+   [few] 
+   [many] 
   *[other] productions
 }
 
 global--models--location--kinds--seo_statistics = { $count ->
    [one] commercial leases
    [zero] commercial leases
+   [few] 
+   [many] 
   *[other] commercial leases
 }
 
 global--models--location--kinds--showroom--normal = { $count ->
    [one] showroom
    [zero] showrooms
+   [few] 
+   [many] 
   *[other] showrooms
 }
 
@@ -3242,78 +3683,189 @@ global--models--location--kinds--showroom--short = showroom
 global--models--location--kinds--storage_hotel--normal = { $count ->
    [one] storage hotel
    [zero] storages hotels
+   [few] 
+   [many] 
   *[other] storages hotels
 }
 
 global--models--location--kinds--storage_hotel--short = { $count ->
    [one] storage hotel
    [zero] storages hotels
+   [few] 
+   [many] 
   *[other] storages hotels
 }
 
 global--models--location--kinds--store--normal = { $count ->
    [one] shop
    [zero] shops
+   [few] 
+   [many] 
   *[other] shops
 }
 
 global--models--location--kinds--store--seo_statistics = { $count ->
    [one] shop
    [zero] shop
+   [few] 
+   [many] 
   *[other] shop
 }
 
 global--models--location--kinds--store--short = { $count ->
    [one] shop
    [zero] shops
+   [few] 
+   [many] 
   *[other] shops
 }
 
 global--models--location--kinds--virtual_office--normal = { $count ->
    [one] virtual office
    [zero] virtual offices
+   [few] 
+   [many] 
   *[other] virtual office
 }
 
 global--models--location--kinds--virtual_office--seo_statistics = { $count ->
    [one] virtual offices
    [zero] virtual offices
+   [few] 
+   [many] 
   *[other] virtual offices
 }
 
 global--models--location--kinds--virtual_office--short = { $count ->
    [one] virtual office
    [zero] virtual offices
+   [few] 
+   [many] 
   *[other] virtual offices
 }
 
 global--models--location--kinds--warehouse--normal = { $count ->
    [one] production/warehouse
    [zero] production/warehouses
+   [few] 
+   [many] 
   *[other] production/warehouses
 }
 
 global--models--location--kinds--warehouse--seo_statistics = { $count ->
    [one] production/warehouse
    [zero] production/warehouse
+   [few] 
+   [many] 
   *[other] production/warehouse
 }
 
 global--models--location--kinds--warehouse--short = { $count ->
    [one] warehouse
+   [zero] 
+   [few] 
+   [many] 
   *[other] warehouses
 }
 
 global--models--location--kinds--workshop--normal = { $count ->
    [one] workshop
    [zero] workshops
+   [few] 
+   [many] 
   *[other] workshops
 }
 
 global--models--location--kinds--workshop--short = { $count ->
    [one] workshop
    [zero] workshops
+   [few] 
+   [many] 
   *[other] workshops
+}
+
+global--models--location--kinds--commercial_lot--normal = { $count ->
+   [one] 
+  *[other] 
+}
+
+global--models--location--kinds--commercial_lot--short = { $count ->
+   [one] 
+  *[other] 
+}
+
+global--models--location--kinds--housing--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--location--kinds--housing--short = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--location--kinds--lot--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--location--kinds--lot--short = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--location--kinds--residential_lot--normal = { $count ->
+   [one] 
+  *[other] 
+}
+
+global--models--location--kinds--residential_lot--short = { $count ->
+   [one] 
+  *[other] 
+}
+
+global--models--property--categories--all--normal = { $count ->
+   [one] 
+  *[other] 
+}
+
+global--models--property--categories--investment_property--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--property--categories--investment_sale--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--property--categories--lot_property--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--property--categories--lot_sale--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--property--categories--user_property--normal = { $count ->
+   [one] 
+   [zero] 
+  *[other] 
+}
+
+global--models--property--categories--user_sale--normal = { $count ->
+   [one] 
+  *[other] 
 }
 
 global--terms--custom--lease = lease
@@ -3324,6 +3876,10 @@ global--terms--lease_property = lease
 
 global--terms--sale_property = sale property
 
+global--terms--for_sale = 
+
+global--terms--sale = 
+
 gold = gold
 
 google_reviews--button_text = Leave a review
@@ -3331,24 +3887,32 @@ google_reviews--button_text = Leave a review
 helpers--i18n--localize_kind--location = { $count ->
    [one] commercial space
    [zero] commercial spaces
+   [few] 
+   [many] 
   *[other] commercial spaces
 }
 
 helpers--i18n--localize_kind--office = { $count ->
    [one] office
    [zero] offices
+   [few] 
+   [many] 
   *[other] offices
 }
 
 helpers--i18n--localize_kind--store = { $count ->
    [one] retail space
    [zero] retail spaces
+   [few] 
+   [many] 
   *[other] retail spaces
 }
 
 helpers--i18n--localize_kind--warehouse = { $count ->
    [one] industrial/warehouse
    [zero] industrial/warehouses
+   [few] 
+   [many] 
   *[other] industrial/warehouses
 }
 
@@ -3367,6 +3931,8 @@ helpers--ui_helper--extra_alt_title = The lease has been added to the order by M
 helpers--ui_helper--type_popup_text = The lease has been added to the order by MatchOffice and not by the client 
 
 helpers--ui_helper--vip_alt_title = The lease has been added to the order by MatchOffice and not by the client 
+
+helpers--alternate_text--kind_for_sale_on = 
 
 jeudan_policy_page--checkbox_text = &nbsp; &nbsp; * I have read and agree on the terms and conditions specified above.
 
@@ -3421,6 +3987,8 @@ layouts--providers--bottom--vat_id = VAT Registration No.
 
 layouts--providers--bottom--your_company = Your company
 
+layouts--providers--bottom--ean = 
+
 layouts--providers--contract--contract = Show my contract
 
 layouts--providers--contract--invoice_payments = Invoice payments
@@ -3442,6 +4010,10 @@ layouts--providers--navigation--logout = Sign out
 layouts--providers--navigation--my_settings = My settings 
 
 layouts--providers--navigation--statistic = Statistic
+
+layouts--providers--navigation--locations_price_insights = 
+
+layouts--providers--navigation--sales_properties = 
 
 layouts--providers--providers--click_here = click here.
 
@@ -3484,6 +4056,8 @@ layouts--sidebars--rental_focus--see_all_advantages_and_prices = All advantages 
 lb_showroom--detailed--asset_box--floor-plans_button = { $count ->
    [one] %{count} floor plan
    [zero] No floor plans
+   [few] 
+   [many] 
   *[other] %{count} floor plans
 }
 
@@ -3510,12 +4084,16 @@ lb_showroom--detailed--asset_box--new_virtual_tour_button = Virtual tour
 lb_showroom--detailed--asset_box--photos_button = { $count ->
    [one] %{count} photo
    [zero] No photos
+   [few] 
+   [many] 
   *[other] %{count} photos
 }
 
 lb_showroom--detailed--asset_box--videos_button = { $count ->
    [one] Video
    [zero] No video
+   [few] 
+   [many] 
   *[other] %{count} videos
 }
 
@@ -3545,6 +4123,12 @@ lb_showroom--detailed--get_info_box--body =  You can get free information on thi
 lb_showroom--detailed--get_info_box--button_text = Get **free information on the property**
 
 lb_showroom--detailed--get_info_box--title = Interested? Get free information on this property
+
+lb_showroom--detailed--get_info_box--sales_body = 
+
+lb_showroom--detailed--get_info_box--sales_button_text = 
+
+lb_showroom--detailed--get_info_box--sales_title = 
 
 lb_showroom--detailed--nearby_parking_lot--nearby_parking_lot_label = Nearest advertised parking lot
 
@@ -3584,10 +4168,7 @@ lb_showroom--detailed--transport_distances--bicycle_parking = bicycle parking
 
 lb_showroom--detailed--transport_distances--boat = Boat
 
-lb_showroom--detailed--transport_distances--bus
-
-
- = bus
+lb_showroom--detailed--transport_distances--bus = bus
 
 lb_showroom--detailed--transport_distances--bus = Bus
 
@@ -3625,9 +4206,7 @@ lb_showroom--detailed--transport_distances--local_train = S-train
 
 lb_showroom--detailed--transport_distances--mall = mall
 
-lb_showroom--detailed--transport_distances--metro
-
- = metro
+lb_showroom--detailed--transport_distances--metro = metro
 
 lb_showroom--detailed--transport_distances--metro = Metro
 
@@ -3665,6 +4244,14 @@ lb_showroom--detailed--transport_distances--walking = Walking
 
 lb_showroom--detailed--transport_distances--yoga = yoga
 
+lb_showroom--detailed--transport_distances--airport_train = 
+
+lb_showroom--detailed--transport_distances--s-train = 
+
+lb_showroom--detailed--transport_distances--express_bus = 
+
+lb_showroom--detailed--transport_distances--express_train = 
+
 lb_showroom--detailed--type_and_address--type_label = Kind:
 
 lb_showroom--filters--area--area_filter_headline = Size
@@ -3694,6 +4281,10 @@ lb_showroom--list--floor_area_desc = Largest floor area
 lb_showroom--list--price_asc = Cheapest
 
 lb_showroom--list--price_desc = Most expensive
+
+lb_showroom--list--investment_properties_for_sale_in_denmark = 
+
+lb_showroom--list--user_properties_for_sale_in_denmark = 
 
 lb_showroom--showroom--filter--tab_hide_button = Hide customizations
 
@@ -3808,6 +4399,8 @@ locations--energy_rating--high = High
 
 locations--energy_rating--information_about_energy_rating--header = Information on energy labelling of commercial properties
 
+locations--energy_rating--information_about_energy_rating--content = 
+
 locations--energy_rating--low = Low
 
 locations--energy_rating--rating_created_in_year_xxxx = The energy label was completed in %{year}.
@@ -3873,6 +4466,22 @@ locations--index--store--seo_friendly_summary =  This list is based on your choi
 locations--index--virtual_office--seo_friendly_summary = This list is showing available virtual offices in %{city}. Click on each virtual office to see details.
 
 locations--index--warehouse--seo_friendly_summary = This list is based on your choice of available warehouses in %{city}. Click on each warehouse to see details.
+
+locations--index--housing--seo_friendly_summary = 
+
+locations--index--lot--seo_friendly_summary = 
+
+locations--index--sale--housing--seo_friendly_summary = 
+
+locations--index--sale--location--seo_friendly_summary = 
+
+locations--index--sale--lot--seo_friendly_summary = 
+
+locations--index--sale--office--seo_friendly_summary = 
+
+locations--index--sale--store--seo_friendly_summary = 
+
+locations--index--sale--warehouse--seo_friendly_summary = 
 
 locations--nearby_areas--nearby_cities = Location
 
@@ -3966,6 +4575,8 @@ location_adverts--list--store_headline = shops in %{geo_name}
 
 location_adverts--list--warehouse_headline = warehouse- and industrial premises in %{geo_name}
 
+location_adverts--list--choose_property_kind = 
+
 location_adverts--prospectus_parts--back_page--contact_info = Contact information
 
 location_adverts--prospectus_parts--footer--autogenerated_by = Autogenerated by
@@ -3977,6 +4588,8 @@ location_adverts--prospectus_parts--front_page--see_lease = See the lease
 location_adverts--prospectus_parts--front_page--see_lease_on = See the lease on Matchoffice.com
 
 location_adverts--prospectus_parts--front_page--see_list_of_leases = See list of leases
+
+location_adverts--prospectus_parts--front_page--see_other_leases = 
 
 location_adverts--prospectus_parts--tabs_page--area = Area
 
@@ -4042,7 +4655,7 @@ mercury_articles--index--title = Articles
 
 mercury_articles--show--edit = Edit
 
-metadata--tagline = %{business_space_link:Commercial space} for rent
+metadata--tagline = %{business_space_link} for rent
 
 news_articles--index--read_more = Read more
 
@@ -4228,6 +4841,12 @@ pages--erhvervsudlejning--headline = Commercial properties for rent in Denmark
 
 pages--erhvervsudlejning--subheadline = Commercial properties to rent on %{site_name}
 
+pages--erhvervsudlejning--body_1 = 
+
+pages--erhvervsudlejning--body_2 = 
+
+pages--erhvervsudlejning--body_3 = 
+
 pages--how_it_works--customers--heading = For Tenants - This is How it Works
 
 pages--how_it_works--customers--sub_heading_1 = This is how you search after space to lease
@@ -4236,8 +4855,7 @@ pages--how_it_works--customers--sub_heading_2 = This is how you order informatio
 
 pages--how_it_works--customers--sub_heading_3 = This is how you receive notification regarding new tenancies
 
-pages--how_it_works--customers--text_box_1 =  Generally you can search within 3 categories: [kontorlokaler](%{office_url}), 
- [produktion/lager](%{warehouse_url}) and [butikslokaler](%{store_url}). From the category front pages you can search areas and cities by clicking the map and the individual city names. 
+pages--how_it_works--customers--text_box_1 =  Generally you can search within 3 categories: [kontorlokaler](%{office_url}), [produktion/lager](%{warehouse_url}) and [butikslokaler](%{store_url}). From the category front pages you can search areas and cities by clicking the map and the individual city names.
  You are also able to do an [avanceret søgning](%{search_url}) with more details - for example price and size.    
 
 pages--how_it_works--customers--text_box_2 = To order information on a property to rent, you just need to click the button and fill out the form. You will subsequently be contacted directly by the landlord. You can easily order information on several properties to rent in one go.
@@ -4303,8 +4921,7 @@ pages--rented_out_locations--period = last %{days} days.
 pages--rented_out_locations--rented_out_at_header = Leased 
 
 pages--support--customers--bottomline =  If you didn't find answers to your enquiry, you are welcome to contact us 
- on tel:   (+45) 39 45 85 58 or via. email on %
- {email:info@matchoffice.com} 
+ on tel:   (+45) 39 45 85 58 or via. email on %{email}
 
 pages--support--customers--heading = Frequently Asked Questions for Tenants
 
@@ -4315,9 +4932,7 @@ pages--support--customers--subheading = Questions
 pages--support--customers--title = Help for tenants
 
 pages--support--providers--bottomline =  If you did not find answers to your enquiry, you are welcome to 
- contact us
- on Tel.:  (+45) 3945 8558or via. email on %
- {email:info@matchoffice.com}.
+ contact us on Tel.:  (+45) 3945 8558or via. email on %{email}.
 
 pages--support--providers--heading = Frequently Asked Questions for Landlords
 
@@ -4468,18 +5083,24 @@ promo--promotional_providers--shared--call_back--rental = Fill out the box below
 promo--promotional_providers--shared--shortcuts--offices = { $count ->
    [one] office %{count}
    [zero] no offices
+   [few] 
+   [many] 
   *[other] offices %{count}
 }
 
 promo--promotional_providers--shared--shortcuts--stores = { $count ->
    [one] shop %{count}
    [zero] shops
+   [few] 
+   [many] 
   *[other] shops %{count}
 }
 
 promo--promotional_providers--shared--shortcuts--warehouses = { $count ->
    [one] %{count} industrial and warehouse space 
    [zero] industrial and warehouse space
+   [few] 
+   [many] 
   *[other] %{count} industrial and warehouse space  
 }
 
@@ -4500,6 +5121,38 @@ properties--filter--property_type_filter_headline = Property Type
 properties--filter--tab_toggle_button = Filters
 
 properties--filters--price--price_filter_headline = Price
+
+properties--list--choose_property_kind = 
+
+properties--list--created_at_asc = 
+
+properties--list--created_at_desc = 
+
+properties--list--distance_to_center_at_asc = 
+
+properties--list--floor_area_asc = 
+
+properties--list--floor_area_desc = 
+
+properties--list--geo_panel_body = 
+
+properties--list--geo_panel_headline = 
+
+properties--list--map_search_panel_body = 
+
+properties--list--map_search_panel_headline = 
+
+properties--list--no_search_results = 
+
+properties--list--no_search_result_tip = 
+
+properties--list--price_asc = 
+
+properties--list--price_desc = 
+
+properties--list--sort_by = 
+
+properties--list_map--refresh_list_on_drag = 
 
 provider--active_sessions--headline = Active sessions
 
@@ -4645,6 +5298,12 @@ provider--form--visuals_form--proposals--virtual_tour--second_label = Virtuel tu
 provider--form--visuals_form--proposals--virtual_tour--second_price = Få tilbud
 
 provider--form--visuals_form--subheader = Opstartsomkostninger pr. ejendom: 1.000 kr. - dertil tillægges de valgte ydelser
+
+provider--form--energy_rating_banner--description = 
+
+provider--form--energy_rating_banner--link = 
+
+provider--form--energy_rating_banner--title = 
 
 provider--locations--edit_location = Edit location
 
@@ -5108,6 +5767,10 @@ providers--locations--edit--unfinished =  The status of this ad is “Unfinished
 providers--locations--edit--views--description =  From August 3rd, 2023, the attribution model has been changed to give a more accurate picture of your ad's performance.
  One view is equal to one impression on list views and detail view.
 
+providers--locations--edit--other_types = 
+
+providers--locations--edit--vip = 
+
 providers--locations--filter--all_locations = All leases
 
 providers--locations--filter--my_locations = My leases
@@ -5203,7 +5866,7 @@ providers--locations--form--energy_rating_help = It's optional to type in additi
 
 providers--locations--form--energy_rating_order = Do not have energy label, you can order it here:
 
-providers--locations--form--energy_rating_service = Our collaborator offers renewals or completion of new energy certificates at the best market price. Click %{energy_rating_service_link:her} to read more.  
+providers--locations--form--energy_rating_service = Our collaborator offers renewals or completion of new energy certificates at the best market price. Click %{energy_rating_service_link} to read more.
 
 providers--locations--form--floor_plan_banner_content = Buy a 2D floor plan from 150 DKK.
 
@@ -5347,6 +6010,8 @@ providers--locations--form--zipcode_help = Type in postcode and the city will be
 
 providers--locations--form--zip_and_city = Postcode & city
 
+providers--locations--form--go_edit_first_part = 
+
 providers--locations--index--approved_complete = You need to  <strong>manually change</strong>  the status from <strong>“Not visible”</strong> to <strong>“Active”</strong>  in <u>the overview </u> of all your %{sections}. Otherwise, your %{section} will not be visible on MatchOffice. Please contact our support via phone or email if you need any assistance.
 
 providers--locations--index--back_to_list = Back to list view
@@ -5370,6 +6035,8 @@ providers--locations--index--not_approved_unfinished =  Your account is not acti
 providers--locations--lease_property = { $count ->
    [one] lease
    [zero] lease
+   [few] 
+   [many] 
   *[other] leases
 }
 
@@ -5390,6 +6057,8 @@ providers--locations--new--create_sale_property = Create sales property
 providers--locations--new--description_helper =  <p>After the location is created you can upload photos, floor plans, and prospectus.
  <br>The ad will be visible when the status is changed to "Active".
  </p>
+
+providers--locations--new--sale--description_helper = 
 
 providers--locations--popover--annual_rent_amount_flexible = If checked ‘Yes’: The word 'From' will be shown before the price. Example: From 1200 kr.
 
@@ -5631,6 +6300,40 @@ providers--photos--list--pictures_processing = Photos for processing
 
 providers--price_insights--index--yearly_operational_cost_per_m2 = Yearly operational cost pr. m²
 
+providers--price_insights--index--activation_date = 
+
+providers--price_insights--index--active = 
+
+providers--price_insights--index--address = 
+
+providers--price_insights--index--area = 
+
+providers--price_insights--index--average = 
+
+providers--price_insights--index--days_active = 
+
+providers--price_insights--index--deactivation_date = 
+
+providers--price_insights--index--locations_count = 
+
+providers--price_insights--index--new_rent_price = 
+
+providers--price_insights--index--not_found = 
+
+providers--price_insights--index--old_rent_price = 
+
+providers--price_insights--index--price_change = 
+
+providers--price_insights--index--tips--add_location = 
+
+providers--price_insights--index--tips--remove_location = 
+
+providers--price_insights--form--kinds = 
+
+providers--price_insights--form--provinces = 
+
+providers--price_insights--form--submit = 
+
 providers--prospectuses--show--add_prospect = Add prospectus
 
 providers--prospectuses--show--add_prospectus_label = Click "Choose files" and choose the prospectus you want to upload.
@@ -5700,7 +6403,27 @@ providers--providers--index--testimonial_name = - Torkild Bang Jensen
 
 providers--providers--index--testimonial_position = Department Manager at Nordea Properties
 
+providers--providers--index--body1 = 
+
+providers--providers--index--heading = 
+
+providers--providers--index--prices_text_4 = 
+
+providers--providers--index--prices_text_5 = 
+
+providers--providers--index--prices_text_6 = 
+
+providers--providers--index--statements = 
+
+providers--providers--index--subheading1 = 
+
+providers--providers--index--subheading2 = 
+
+providers--providers--index--testimonial = 
+
 providers--providers--large_provider--big_provider = Large commercial landlord?
+
+providers--providers--large_provider--body = 
 
 providers--providers--new--accept_terms = I accept the above stated conditions
 
@@ -5779,6 +6502,8 @@ providers--providers--signups--default--index--become_provider_now = Create a pr
 providers--providers--signups--default--index--button_text = List your office
 
 providers--providers--signups--default--index--heading = Rent out your commercial space quickly and easily 
+
+providers--providers--signups--default--index--statements--da--ending_html = 
 
 providers--provider_deals--edit--client_info = The client's contact information
 
@@ -5860,6 +6585,10 @@ providers--tokenized_file--show--processing_report = The report is being prepare
 
 providers--unresolved_provider_deal_table--location = Location
 
+providers--goedit_banner--button_text = 
+
+providers--goedit_banner--headline = 
+
 provider_backend--locations--image_too_small =  The image is too small.
  
  Your image is %{width}x%{height} pixels.
@@ -5889,12 +6618,16 @@ provider_specifics--index--administration_link_back = << Back to the administrat
 provider_specifics--index--location = { $count ->
    [one] 1 commercial lease
    [zero] no commercial leases
+   [few] 
+   [many] 
   *[other] %{count} commercial leases
 }
 
 provider_specifics--index--office = { $count ->
    [one] 1 office
    [zero] no offices
+   [few] 
+   [many] 
   *[other] %{count} offices
 }
 
@@ -5905,12 +6638,16 @@ provider_specifics--index--rental_link_back = << Back to commercial real estate 
 provider_specifics--index--store = { $count ->
    [one] 1 shop
    [zero] shops
+   [few] 
+   [many] 
   *[other] %{count} shops
 }
 
 provider_specifics--index--warehouse = { $count ->
    [one] 1 industrial and logistical unit
    [zero] industrial and logistical units 
+   [few] 
+   [many] 
   *[other] %{count} industrial and logistical units
 }
 
@@ -6262,6 +6999,8 @@ search_agents--create--while_you_wait = While you wait for information, you can 
 
 search_agents--create--your_contact_info = Your contact information
 
+search_agents--create--sales_report = 
+
 search_agents--criteria--area--area = Area
 
 search_agents--criteria--kind--kind = Kind
@@ -6319,6 +7058,8 @@ search_agents--form--get_search_agent_information = Click <span>HERE</span> to r
 search_agents--form--search_agent_already_exists = You have already created a search agent for this e-mail address 
 
 search_agents--form--your_information = Your information
+
+search_agents--form--sales_criteria = 
 
 search_agents--index--agents_list = Agents List
 
@@ -6384,6 +7125,8 @@ search_agents--search_agent_link--find_more_locations = Find more leases
 search_agents--search_agent_link--search_agent_link_text = { $count ->
    [one] There is 1 lease that suits your criteria
    [zero] There are no leases that suit your criteria
+   [few] 
+   [many] 
   *[other] There are %{count} leases that suit your criteria
 }
 
@@ -6462,6 +7205,16 @@ seo--countries--sg--noun = Singapore
 seo--countries--ua--noun = Ukraine
 
 seo--countries--uk--noun = United Kingdom
+
+seo--countries--ch--noun = 
+
+seo--countries--de--noun = 
+
+seo--countries--dk--noun = 
+
+seo--countries--gt--noun = 
+
+seo--countries--se--noun = 
 
 seo--coworking--rent--country_list--meta_description = Get a list of available coworkings in %{postal_district}! Find the perfect office in %{postal_district} for your business ->
 
@@ -6583,6 +7336,26 @@ seo--warehouse--rent--show--meta_keywords = industrial units, storage facilities
 
 seo--warehouse--rent--show--page_title = Warehouse/industrial for rent: %{street_name}, %{postal_district} | Overview of industrial premises and warehouse premises
 
+seo--fallback--meta_description = 
+
+seo--fallback--title = 
+
+seo--frontpage--investment_property--footer_1 = 
+
+seo--frontpage--investment_property--footer_2 = 
+
+seo--frontpage--investment_property--footer_3 = 
+
+seo--frontpage--investment_property--meta_description = 
+
+seo--frontpage--user_property--footer_1 = 
+
+seo--frontpage--user_property--footer_2 = 
+
+seo--frontpage--user_property--footer_3 = 
+
+seo--frontpage--user_property--meta_description = 
+
 services--custom_seo_reviewer--duplication_warning = %{attribute} is identical to %{other_object}
 
 settings--contact_info--office--address_line = Berkeley Square
@@ -6641,6 +7414,14 @@ signup--new_form--plans--block1--basic_pricer--premium_new = Premium - fra 1.984
 
 signup--new_form--plans--block1--basic_pricer--premium_plus = Premium + - fra 5.250 kr./stk./md.
 
+signup--new_form--plans--block1--basic_pricer--basic = 
+
+signup--new_form--plans--block1--basic_pricer--basic_plus = 
+
+signup--new_form--plans--block1--basic_pricer--premium = 
+
+signup--new_form--plans--block1--basic_pricer--title = 
+
 signup--new_form--plans--block1--coworking_pricer--annual_settlement = Annual payment - 19 EUR/ ad / mo.
 
 signup--new_form--plans--block1--coworking_pricer--halfyearly_settlement = Semiannual payment - 29 EUR/ ad / mo.
@@ -6672,6 +7453,8 @@ signup--new_form--plans--block1--nocure_pricer--title = No cure no pay
 signup--new_form--plans--block1--title = Flexible Workspaces, Offices, Retail and Storage
 
 signup--new_form--plans--block1--title_new = Business center, coworking or office space
+
+signup--new_form--plans--block1--parkering-annual = 
 
 signup--new_form--plans--block2--title = Meeting Rooms, Coworking and Virtual Office
 
@@ -6719,10 +7502,14 @@ signup--new_form--register--vat_id--placeholder = VAT Registration no.
 
 signup--new_form--register--vat_id--tooltip = VAT is your official registration number or the number for reporting taxes.
 
+signup--new_form--register--ean--placeholder = 
+
 signup--new_form--subheading =  Choose a payment model and fill out the form below to start renting out your commercial space through MatchOffice.
  No credit card information is required to sign up.
 
 signup--new_form--title = Sign up as a landlord at MatchOffice
+
+signup--new_form--ean_tooltip = 
 
 signup--partials--realtor_signup--banner = Increase your exposure
 
@@ -6739,6 +7526,10 @@ signup--partials--realtor_signup--phone = Telephone
 signup--partials--realtor_signup--thanks =  **Thanks for your interest!**
  
  We will contact you with further information.
+
+signup--partials--realtor_signup--content = 
+
+signup--partials--realtor_signup--title = 
 
 signup--partials--steps--intro = Three steps and you're set
 
@@ -6860,6 +7651,16 @@ signup--signup_form--sign_up_button = Register as landlord
 
 signup--signup_form--terms_of_service = the terms of service
 
+signup--signup_form--parking_basic_parkering = 
+
+signup--signup_form--parking_basic_price = 
+
+signup--signup_form--parking_price_description = 
+
+signup--signup_form--parking_price_table_title = 
+
+signup--signup_form--parking_tabs_block_one = 
+
 signup--signup_top--button = List your office
 
 signup--signup_top_content =  <h1>List your offices spaces on  <strong>MatchOffice</strong> </h1>
@@ -6965,6 +7766,8 @@ signup--teaser--intro--heading = What do you have for rent?
 signup--teaser--intro--link = Read more.
 
 signup--teaser--intro--text = We offer different payment models depending on the property kind you wish to rent out. Therefore, choose your property kind below or scroll further down the page. If you have leases in both categories, you will have to choose a payment model for each category.
+
+signup--teaser--intro--text_2 = 
 
 signup--teaser--meeting_rooms_free_treal_link = Click here to get started with your meeting room ad (free)
 
@@ -7233,6 +8036,24 @@ signup--teaser--tabs--tab--block--premium--list_5 = Ongoing Facebook campaigns o
 
 signup--teaser--tabs--tab--block--premium--list_6 = High ranking on list view
 
+signup--teaser--tabs--tab--block--collapse--heading = 
+
+signup--teaser--tabs--tab--block--collapse--heading_closed = 
+
+signup--teaser--tabs--tab--block--collapse--table--left = 
+
+signup--teaser--tabs--tab--block--collapse--table--right = 
+
+signup--teaser--tabs--tab--block--footer = 
+
+signup--teaser--tabs--tab--block--linklist_14 = 
+
+signup--teaser--tabs--tab--block--parkering_basic_list_4 = 
+
+signup--teaser--tabs--tab--block--parkering_subtitle_list_office_page = 
+
+signup--teaser--tabs--tab--block--parkering_subtitle_list_office_page_whole_phrase = 
+
 signup--teaser--tabs--tab--click-premise = Click here to get started with your premise(s)
 
 signup--teaser--tabs--tab--enterprice = enterprise
@@ -7252,6 +8073,52 @@ signup--teaser--tabs--tab--premium-plus = Premium +
 signup--teaser--tabs--tab--premium-rate-green-wrapper =  +150% more leads
 
 signup--teaser--tabs--tab--right = Commercial premises
+
+signup--teaser--advice--benefit_1 = 
+
+signup--teaser--advice--benefit_2 = 
+
+signup--teaser--advice--benefit_3 = 
+
+signup--teaser--advice--button = 
+
+signup--teaser--advice--headline = 
+
+signup--teaser--advice--hotline_text = 
+
+signup--teaser--advice--modal_address = 
+
+signup--teaser--advice--modal_comment = 
+
+signup--teaser--advice--modal_headline = 
+
+signup--teaser--advice--modal_text = 
+
+signup--teaser--agent--benefit_1 = 
+
+signup--teaser--agent--benefit_2 = 
+
+signup--teaser--agent--benefit_3 = 
+
+signup--teaser--agent--headline = 
+
+signup--teaser--agent--modal_comment = 
+
+signup--teaser--agent--modal_headline = 
+
+signup--teaser--agent--modal_leases_quantity = 
+
+signup--teaser--agent--modal_text = 
+
+signup--teaser--tenant--benefit_1 = 
+
+signup--teaser--tenant--benefit_2 = 
+
+signup--teaser--tenant--benefit_3 = 
+
+signup--teaser--tenant--benefit_4 = 
+
+signup--teaser--tenant--headline = 
 
 simple_form--error_notification--default_message = Please review the problems below:
 
@@ -7308,8 +8175,6 @@ simple_form--labels--parking_lot--submit = Create parking space
 simple_form--labels--parking_lot--title = Title
 
 simple_form--no = No
-
-simple_form--no (Copy) = No
 
 simple_form--options--location--energy_rating--X = Exempted from energy rating
 
@@ -7497,6 +8362,8 @@ views--articles--feed--link = http://www.matchoffice.com
 
 views--articles--feed--title = News from MatchOffice
 
+views--articles--feed--description = 
+
 views--articles--index--headline = News
 
 views--articles--sidebar--about_lokalebasen = About %{site_name}
@@ -7538,18 +8405,24 @@ views--locations--permission_policy--what_is_this_information_used_for = What is
 views--locations--rented_out--link_to_recent_deals = { $count ->
    [one] Lettings the past day
    [zero] Lettings the past day
+   [few] 
+   [many] 
   *[other] Lettings in the past %{count} days
 }
 
 views--locations--rented_out--recent_deals = { $count ->
    [one] Latest letting
    [zero] Latest lettings
+   [few] 
+   [many] 
   *[other] Latest %{count} lettings
 }
 
 views--locations--shared--business_center = { $count ->
    [one] %{count} business center
    [zero] business centers
+   [few] 
+   [many] 
   *[other] %{count} business centers
 }
 
@@ -7576,6 +8449,8 @@ views--locations--shared--cart--see_details_about = See details about: %{locatio
 views--locations--shared--cart--selected_locations--location = { $count ->
    [one] lease
    [zero] leases
+   [few] 
+   [many] 
   *[other] leases
 }
 
@@ -7600,6 +8475,8 @@ views--locations--shared--international_helper--help = Help
 views--locations--shared--location = { $count ->
    [one] %{count} business premise
    [zero] business premises
+   [few] 
+   [many] 
   *[other] %{count} business premises
 }
 
@@ -7628,6 +8505,8 @@ views--locations--shared--nice_search--size_under = under %{high} m²
 views--locations--shared--office = { $count ->
    [one] %{count} office
    [zero] no offices
+   [few] 
+   [many] 
   *[other] %{count} offices
 }
 
@@ -7636,6 +8515,8 @@ views--locations--shared--parking = parkings
 views--locations--shared--store = { $count ->
    [one] %{count} shop
    [zero] shops
+   [few] 
+   [many] 
   *[other] %{count} shops
 }
 
@@ -7644,6 +8525,8 @@ views--locations--shared--virtual_office = virtual offices
 views--locations--shared--warehouse = { $count ->
    [one] %{count} warehouse and industrial premise
    [zero] warehouse and industrial premises
+   [few] 
+   [many] 
   *[other] %{count} warehouse- and industrial premises
 }
 
@@ -7704,12 +8587,16 @@ views--locations--show--title = %{kind} for rent on %{address}
 views--locations--show--view_floor_plans = { $count ->
    [one] See floor plan
    [zero] See floor plans
+   [few] 
+   [many] 
   *[other] See floor plans
 }
 
 views--locations--show--view_photos = { $count ->
    [one] See photo
    [zero] See photos
+   [few] 
+   [many] 
   *[other] See photos
 }
 
@@ -7728,6 +8615,16 @@ views--location_adverts--show--office_type_description = Office space for rent
 views--location_adverts--show--store_type_description = Retail space for rent
 
 views--location_adverts--show--warehouse_type_description = Warehouse/industrial unit for rent
+
+views--location_adverts--show--sales_business_center_type_description = 
+
+views--location_adverts--show--sales_housing_type_description = 
+
+views--location_adverts--show--sales_office_type_description = 
+
+views--location_adverts--show--sales_store_type_description = 
+
+views--location_adverts--show--sales_warehouse_type_description = 
 
 views--orders--show--create_search_agent_suggestion = If you want to be notified when we get new premises that match your search criteria, you can create a search agent below. 
 
@@ -7768,6 +8665,8 @@ views--providers--banner--partner-badge-title = Get more leads with a Partner Ba
 views--providers--banner--partner-cta-button = Get a Partner Badge
 
 views--providers--locations--anonymous--other_notification = Bemærk at sager, der er anonymiserede, afregnes på samme måde som øvrige lejemål, du har til udlejning.
+
+views--providers--locations--anonymous--on_deal_notification = 
 
 views--providers--locations--edit--state_explanations--no_description = Please provide a description of your premises before it can be activated
 
@@ -7865,6 +8764,12 @@ views--sessions--new--we_are_ready_to_help--description =  If you need any help 
 
 views--sessions--new--we_are_ready_to_help--headline = We are delighted to help you
 
+views--sessions--new--sync_your_locations_automatically--cta = 
+
+views--sessions--new--sync_your_locations_automatically--description = 
+
+views--sessions--new--sync_your_locations_automatically--headline = 
+
 views--shared--about_link = About us
 
 views--shared--advanced_search = Advanced search
@@ -7919,6 +8824,14 @@ views--support--for_customers = For tenants
 
 views--support--for_providers = For landlords 
 
+views--properties--index--seo--meta_description = 
+
+views--properties--index--seo--title = 
+
+views--properties--provider_box--heading = 
+
+views--property--show--picture = 
+
 widgets--news_teasers--about_us_link = About us
 
 widgets--news_teasers--create_search_agent = Create a search agent
@@ -7928,6 +8841,12 @@ widgets--news_teasers--news_teasers_headline = About MatchOffice
 widgets--news_teasers--search_premises = Search premises
 
 widgets--news_teasers--see_all_news_link = See all news
+
+widgets--newest_properties--created_at = 
+
+widgets--popular_areas--popular_area_investment_link = 
+
+widgets--popular_areas--popular_area_user_link = 
 
 wiki--article--content--area_history = Area history
 
@@ -7985,6 +8904,8 @@ wiki--footer--phone = (+45) 70 20 08 14
 
 wiki--header--beta_banner = This is a new service for property orientation in the UK - your feedback will help us improve our product
 
+wiki--header--navigation_statistic = 
+
 wiki--layout--title = WikiEstate
 
 wiki--map--location_price = Price
@@ -8006,3 +8927,7 @@ will_paginate--next_label = Next &raquo;
 will_paginate--page_gap = &hellip; 
 
 will_paginate--previous_label = &laquo; Previous
+
+location_summary_body_for_sales_text_first = 
+
+bronze = 
