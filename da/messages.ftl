@@ -3907,12 +3907,7 @@ lb_showroom--detailed--transport_distances--bicycle_parking = cykelparkering
 
 lb_showroom--detailed--transport_distances--boat = Båd
 
-lb_showroom--detailed--transport_distances--bus
-
-
- = bus
-
-lb_showroom--detailed--transport_distances--bus = Bus
+lb_showroom--detailed--transport_distances--bus = bus
 
 lb_showroom--detailed--transport_distances--cafe = cafe
 
@@ -3946,11 +3941,7 @@ lb_showroom--detailed--transport_distances--light_rail = letbane
 
 lb_showroom--detailed--transport_distances--mall = indkøbscenter
 
-lb_showroom--detailed--transport_distances--metro
-
- = metro
-
-lb_showroom--detailed--transport_distances--metro = Metro
+lb_showroom--detailed--transport_distances--metro = metro
 
 lb_showroom--detailed--transport_distances--parking = parkering
 
@@ -3968,19 +3959,13 @@ lb_showroom--detailed--transport_distances--supermarket = supermarked
 
 lb_showroom--detailed--transport_distances--taxi = taxa
 
-lb_showroom--detailed--transport_distances--train = Tog
-
 lb_showroom--detailed--transport_distances--train  = tog
-
-lb_showroom--detailed--transport_distances--tram = Sporvogn
 
 lb_showroom--detailed--transport_distances--tram  = sporvogn
 
 lb_showroom--detailed--transport_distances--transport_distances = Afstand til offentlig transport
 
 lb_showroom--detailed--transport_distances--transport_distances_headline = Afstand til omgivelser
-
-lb_showroom--detailed--transport_distances--trolleybus = Trolleybus
 
 lb_showroom--detailed--transport_distances--trolleybus  = trolleybus
 
