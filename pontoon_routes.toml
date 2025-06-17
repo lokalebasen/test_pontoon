@@ -1,0 +1,6 @@
+[[paths]]
+reference = "routes/en/messages.ftl"
+l10n = "routes/{locale}/messages.ftl"
+locales = [
+"da"
+]
