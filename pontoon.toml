@@ -1,6 +1,6 @@
 [[paths]]
-reference = "world/en/messages.ftl"
-l10n = "world/{locale}/messages.ftl"
+reference = "projects/world/en/messages.ftl"
+l10n = "projects/world/{locale}/messages.ftl"
 locales = [
 "da"
 ]
