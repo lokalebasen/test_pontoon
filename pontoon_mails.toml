@@ -1,0 +1,6 @@
+[[paths]]
+reference = "projects/mails/en/messages.ftl"
+l10n = "projects/mails/{locale}/messages.ftl"
+locales = [
+"da"
+]
