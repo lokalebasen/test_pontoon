@@ -317,7 +317,6 @@ mails--client_deal_feedback--default--please_select_option_new =  Have you found
 mails--client_deal_feedback--default--subject = We kindly ask for your feedback
 
 mails--client_deal_feedback--default--support =  If you have signed a contract with one of the providers we have introduced to you and you inform us about it using the above link, we would like to send you an Amazon voucher worth $25 as a thank you for your kind feedback.
- 
  <img src="%{imgSrc}" alt="Client deal" width="150" style="margin: 24px auto; display: block;" />
  
  **Are you still looking for the right premises?**
