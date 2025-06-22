@@ -463,7 +463,7 @@ mails--follow_up_2--default--subject = I found other locations that might intere
 
 mails--follow_up_3--default--create_a_search_agent =  It's been a while since you ordered information on MatchOffice. I hope you are making progress with your search. If not, I have listed a couple of other suggestions for you to take a look at.
  
- #### Search Agent
+ <h4>Search Agent</h4>
  If you haven't yet created a search agent, I recommend that you do. You will then be notified as soon as a new location matches your criteria.
  [Create a search agent](%{search_agent_url}).
 
