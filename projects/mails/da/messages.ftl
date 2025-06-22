@@ -427,7 +427,7 @@ mails--follow_up_2--default--subject = Jeg har fundet lejemål til dig
 
 mails--follow_up_3--default--create_a_search_agent =  Det er ved at være lang tid siden, at du besøgte Lokalebasen.dk, og imens har vi fået nye lejemål ind på siden. Vi har listet et par forslag til dig herunder.
  
- <h4>Søgeagent</h4>
+ #### Søgeagent
  Leder du stadig efter et nyt lejemål, er det en god idé at oprette en søgeagent. Så modtager du en e-mail fra os, så snart vi får nye lejemål ind, der matcher dine kriterier.
  [Opret en søgeagent](%{search_agent_url}).
 
