@@ -126,7 +126,7 @@ mails--booked_showcase_provider--default--text =
     - Kommentar: 
     - %{ client_comment }
 mails--booked_showcase_provider--default--text_new =
-    Hej %{ provider_name }
+    Hej Test %{ provider_name }
     
     En potentiel kunde ønsker en fremvisning af dit lejemål:  %{ location_url } og har udfyldt følgende:
     
