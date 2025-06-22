@@ -46,8 +46,6 @@ generic--kind_and_address = %{kind} on %{address}
 
 generic--kind_regards = Kind regards
 
-generic--kind_regards (Copy) = Kind regards
-
 generic--kind_regards_person_link =  <p>Kind regards
  <br/>
  Olga Fomenko

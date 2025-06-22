@@ -44,8 +44,6 @@ generic--kind_and_address = %{kind} på %{address}
 
 generic--kind_regards = Med venlig hilsen
 
-generic--kind_regards (Copy) = Med venlig hilsen
-
 generic--kind_regards_person_link =  <p>Med venlig hilsen
  <br/>
  Nikolaj Kristoffersen
