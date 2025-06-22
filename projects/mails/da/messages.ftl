@@ -508,7 +508,7 @@ mails--new_provider--default--from_name = Lokalebasen.dk
 
 mails--new_provider--default--signed_up =  Du er nu oprettet som udbyder på Lokalebasen.dk med følgende brugernavn:
  
- **%{username}** 
+ <strong>%{username}</strong>
  
  For at oprette dit første lejemål, skal du blot logge ind på Lokalebasen.dk
 
@@ -528,7 +528,7 @@ mails--new_provider_flow_onboarding--default--quality_score = Desto bedre en ann
 
 mails--new_provider_flow_onboarding--default--registered =  Du er nu oprettet som udlejer med følgende e-mail: 
  
- **%{username}**
+ <strong>%{username}</strong>
  
  For at oprette dit første lejemål, skal du blot logge ind på Lokalebasen.dk
 

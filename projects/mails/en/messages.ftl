@@ -512,7 +512,7 @@ mails--new_provider--default--from_name = MatchOffice
 
 mails--new_provider--default--signed_up =  Welcome. You've been signed up as a provider on MatchOffice with the following username:
  
- **%{username}** 
+ <strong>%{username}</strong>
  
  To create your first location, log in at MatchOffice
 
